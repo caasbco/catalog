@@ -1,0 +1,2836 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>لیست محصولات گل بازار</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <!-- Vazirmatn Persian Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Vazirmatn', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#FAF9F6',
+                            100: '#F4F1EA',
+                            200: '#E6E0D4',
+                            300: '#D5CCBC',
+                            700: '#4D473C',
+                            800: '#332F28',
+                            900: '#1C1A16'
+                        },
+                        gold: {
+                            500: '#C5A059',
+                            600: '#A8843E'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Vazirmatn', sans-serif;
+            background-color: #F8F7F4;
+            color: #171513;
+            -webkit-tap-highlight-color: transparent;
+        }
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        .glass-header {
+            backdrop-filter: blur(18px);
+            -webkit-backdrop-filter: blur(18px);
+        }
+        /* شارپ‌سازی و جلوگیری از تاری تصاویر در نمایشگرهای موبایل و رتینا */
+        html, body {
+            max-width: 100%;
+            overflow-x: hidden;
+        }
+        img {
+            image-rendering: auto;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+        }
+        .metallic-champagne {
+            background: linear-gradient(135deg, #e3d5be 0%, #c4b090 50%, #dfd1b8 100%);
+        }
+        .metallic-burgundy {
+            background: linear-gradient(135deg, #87212b 0%, #571018 50%, #7d1c25 100%);
+        }
+        .matte-black {
+            background: linear-gradient(135deg, #2b2b2b 0%, #151515 100%);
+        }
+        .glossy-yellow {
+            background: linear-gradient(135deg, #f3b94a 0%, #d8961c 100%);
+        }
+        .glossy-orange {
+            background: linear-gradient(135deg, #f97316 0%, #c2410c 100%);
+        }
+        .pastel-pistachio {
+            background: linear-gradient(135deg, #a7c4a8 0%, #688a6b 100%);
+        }
+        .matte-khaki {
+            background: linear-gradient(135deg, #c4b5a2 0%, #8c7d6b 100%);
+        }
+        .glossy-white {
+            background: linear-gradient(135deg, #ffffff 0%, #f0f0f0 100%);
+        }
+        .pastel-lilac {
+            background: linear-gradient(135deg, #d8b4e2 0%, #b185db 100%);
+        }
+        .deep-navy {
+            background: linear-gradient(135deg, #1e3a8a 0%, #0f172a 100%);
+        }
+        .olive-green {
+            background: linear-gradient(135deg, #6E7644 0%, #4E542E 100%);
+        }
+        .charcoal-gray {
+            background: linear-gradient(135deg, #4b5563 0%, #1f2937 100%);
+        }
+        .steel-silver {
+            background: linear-gradient(135deg, #e2e8f0 0%, #94a3b8 50%, #cbd5e1 100%);
+        }
+        .royal-purple {
+            background: linear-gradient(135deg, #684775 0%, #482F52 100%);
+        }
+        .nescafe-brown {
+            background: linear-gradient(135deg, #EBE2D3 0%, #D2C3AB 100%);
+        }
+        .matte-burgundy {
+            background: linear-gradient(135deg, #721c24 0%, #490f15 100%);
+        }
+        .poly-gold {
+            background: linear-gradient(135deg, #F5D061 0%, #C59B27 50%, #E8BE42 100%);
+        }
+        .poly-dark-green {
+            background: linear-gradient(135deg, #1E4620 0%, #112A13 100%);
+        }
+        .poly-gray {
+            background: linear-gradient(135deg, #9CA3AF 0%, #4B5563 100%);
+        }
+        .poly-nescafe {
+            background: linear-gradient(135deg, #A48367 0%, #7A5C43 100%);
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col justify-between selection:bg-neutral-900 selection:text-white">
+
+    <!-- Top Sticky Header -->
+    <header class="sticky top-0 z-40 bg-[#F8F7F4]/90 glass-header border-b border-brand-200/80">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 py-3.5 flex items-center justify-between gap-3">
+            
+            <div class="flex items-center gap-3">
+                <div class="w-12 h-12 rounded-full overflow-hidden bg-white border-2 border-gold-500/40 shadow-md shrink-0 flex items-center justify-center">
+                    <img src="https://res.cloudinary.com/v1vmbcpf/image/upload/v1795065510/photo_2026-06-04_12-41-16_2.jpg" alt="لوگو گل بازار" class="w-full h-full object-cover">
+                </div>
+                <div>
+                    <div class="flex items-center gap-2">
+                        <h1 class="text-base sm:text-lg font-black text-neutral-900">لیست محصولات گل بازار</h1>
+                        <span class="text-[9px] bg-gold-500/10 text-gold-600 font-extrabold px-2 py-0.5 rounded-full border border-gold-500/20">گلدان‌های مدرن و گیاهان لوکس</span>
+                    </div>
+                    <p class="text-[11px] text-neutral-500 font-normal">گلدان‌های فلزی با کشوی تخلیه ریلی و چرخ مخفی • بازار گل محلاتی</p>
+                </div>
+            </div>
+
+            <div class="flex items-center gap-2">
+                <button onclick="toggleCartDrawer(true)" class="relative px-3.5 py-2 rounded-xl bg-white border border-brand-200 text-neutral-800 hover:border-neutral-900 active:scale-95 transition shadow-sm flex items-center gap-2 text-xs font-bold">
+                    <i class="ph ph-receipt text-base"></i>
+                    <span>پیش‌فاکتور</span>
+                    <span id="cart-counter" class="hidden px-1.5 py-0.5 bg-neutral-900 text-white text-[10px] rounded-full font-bold">0</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="max-w-6xl mx-auto px-4 sm:px-6 py-5 w-full flex-1">
+        
+        <!-- Prominent Bold Category Cards Section -->
+        <section class="mb-6">
+            <div class="flex items-center justify-between mb-3">
+                <h2 class="text-sm sm:text-base font-black text-neutral-900 flex items-center gap-2">
+                    <i class="ph-fill ph-squares-four text-gold-600 text-lg"></i>
+                    <span>انتخاب دسته‌بندی محصولات:</span>
+                </h2>
+                <button onclick="setFilter('all')" data-cat="all" class="filter-tab px-3.5 py-1.5 rounded-xl bg-neutral-900 text-white font-black text-xs shadow-sm transition">
+                    نمایش همه محصولات
+                </button>
+            </div>
+            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-2.5 sm:gap-3">
+                <button onclick="setFilter('plants')" data-cat="plants" class="filter-tab p-3.5 sm:p-4 rounded-2xl bg-white border-2 border-emerald-700/30 hover:border-emerald-700 text-right transition shadow-sm flex flex-col justify-between gap-2 group">
+                    <span class="w-9 h-9 rounded-xl bg-emerald-100 text-emerald-800 flex items-center justify-center text-xl">🌿</span>
+                    <div>
+                        <span class="text-xs sm:text-sm font-black text-neutral-900 block">گیاهان آپارتمانی</span>
+                        <span class="text-[10px] text-neutral-500">نیکولای، اریکا، پله‌موآ</span>
+                    </div>
+                </button>
+
+                <button onclick="setFilter('metal')" data-cat="metal" class="filter-tab p-3.5 sm:p-4 rounded-2xl bg-white border-2 border-neutral-800/20 hover:border-neutral-900 text-right transition shadow-sm flex flex-col justify-between gap-2 group">
+                    <span class="w-9 h-9 rounded-xl bg-neutral-100 text-neutral-900 flex items-center justify-center text-xl">🪴</span>
+                    <div>
+                        <span class="text-xs sm:text-sm font-black text-neutral-900 block">گلدان فلزی</span>
+                        <span class="text-[10px] text-neutral-500">آلورا صادراتی و اقتصادی</span>
+                    </div>
+                </button>
+
+                <button onclick="setFilter('polymer')" data-cat="polymer" class="filter-tab p-3.5 sm:p-4 rounded-2xl bg-white border-2 border-sky-700/25 hover:border-sky-700 text-right transition shadow-sm flex flex-col justify-between gap-2 group">
+                    <span class="w-9 h-9 rounded-xl bg-sky-100 text-sky-800 flex items-center justify-center text-xl">⚪</span>
+                    <div>
+                        <span class="text-xs sm:text-sm font-black text-neutral-900 block">گلدان پلیمری</span>
+                        <span class="text-[10px] text-neutral-500">چرخدار سبک ۶ رنگ</span>
+                    </div>
+                </button>
+
+                <button onclick="setFilter('combos')" data-cat="combos" class="filter-tab p-3.5 sm:p-4 rounded-2xl bg-white border-2 border-amber-600/30 hover:border-amber-600 text-right transition shadow-sm flex flex-col justify-between gap-2 group">
+                    <span class="w-9 h-9 rounded-xl bg-amber-100 text-amber-800 flex items-center justify-center text-xl">✨</span>
+                    <div>
+                        <span class="text-xs sm:text-sm font-black text-neutral-900 block">ترکیب آماده گیاه و گلدان</span>
+                        <span class="text-[10px] text-neutral-500">کاشته‌شده و آماده تحویل</span>
+                    </div>
+                </button>
+
+                <button onclick="setFilter('care')" data-cat="care" class="filter-tab col-span-2 sm:col-span-1 p-3.5 sm:p-4 rounded-2xl bg-white border-2 border-rose-600/25 hover:border-rose-600 text-right transition shadow-sm flex flex-col justify-between gap-2 group">
+                    <span class="w-9 h-9 rounded-xl bg-rose-100 text-rose-800 flex items-center justify-center text-xl">🧪</span>
+                    <div>
+                        <span class="text-xs sm:text-sm font-black text-neutral-900 block">کود</span>
+                        <span class="text-[10px] text-neutral-500">پک رشد و ضدشوک آلمانی</span>
+                    </div>
+                </button>
+            </div>
+        </section>
+
+        <!-- Live Instant Search Bar -->
+        <div class="mb-5">
+            <div class="relative w-full">
+                <input type="text" id="catalog-search" oninput="handleCatalogSearch()" placeholder="جستجوی نام گلدان، رنگ یا گیاه (اریکا، نیکولای، بژ، زرشکی، خاکی...)" class="w-full bg-white border border-brand-200 rounded-2xl py-3 pr-11 pl-4 text-xs sm:text-sm font-bold focus:outline-none focus:border-neutral-900 shadow-sm transition">
+                <i class="ph ph-magnifying-glass text-lg text-neutral-400 absolute right-4 top-1/2 -translate-y-1/2"></i>
+            </div>
+        </div>
+
+        <!-- Product Cards Grid -->
+        <div id="planter-grid" class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-5">
+            <!-- Dynamically Rendered -->
+        </div>
+    </main>
+
+    <!-- Product Detail & Interactive Size / Color Modal -->
+    <div id="product-modal" class="fixed inset-0 z-50 bg-black/75 backdrop-blur-md hidden items-end sm:items-center justify-center p-0 sm:p-4">
+        <div class="bg-white w-full sm:max-w-2xl rounded-t-3xl sm:rounded-3xl max-h-[95vh] flex flex-col shadow-2xl overflow-hidden">
+            
+            <!-- Modal Header / Visual Gallery Box -->
+            <div class="relative bg-[#F4F1EA] p-4 sm:p-5 flex flex-col items-center justify-center border-b border-brand-200">
+                <button onclick="closeProductModal()" class="absolute top-4 left-4 w-9 h-9 rounded-full bg-white/95 hover:bg-white text-neutral-800 flex items-center justify-center shadow-md active:scale-90 transition z-20">
+                    <i class="ph ph-x font-bold text-base"></i>
+                </button>
+
+                <!-- Planter Big Image Viewer (Fully uncropped / object-contain) -->
+                <div class="relative w-full max-w-sm flex flex-col items-center">
+                    <div class="w-60 h-60 sm:w-72 sm:h-72 rounded-3xl overflow-hidden shadow-xl bg-white border border-brand-200 relative group flex items-center justify-center p-2">
+                        <img id="modal-primary-image" src="" alt="محصول" class="w-full h-full object-contain transition-transform duration-300">
+                    </div>
+
+                    <!-- Alternate thumbnail views with full preview on click -->
+                    <div id="modal-gallery-thumbs" class="mt-3 flex items-center justify-center gap-2 overflow-x-auto w-full py-1"></div>
+                </div>
+
+                <!-- Color Palette Switcher (Curved Rectangle / Capsule Shape) -->
+                <div id="modal-color-section" class="w-full mt-2">
+                    <span class="text-[10px] text-neutral-500 font-bold block text-center mb-1">انتخاب تنوع رنگ (کپسولی لبه‌گرد):</span>
+                    <div class="flex items-center justify-center gap-2 overflow-x-auto py-1" id="modal-color-swatches"></div>
+                </div>
+            </div>
+
+            <!-- Modal Content (Scrollable) -->
+            <div class="p-5 sm:p-6 overflow-y-auto no-scrollbar space-y-4">
+                
+                <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+                    <div>
+                        <div class="flex items-center gap-2">
+                            <span id="modal-prod-badge" class="text-[10px] bg-gold-500/10 text-gold-600 font-extrabold px-2.5 py-0.5 rounded-full border border-gold-500/20"></span>
+                            <span id="modal-finish-text" class="text-[11px] text-neutral-500 font-medium"></span>
+                        </div>
+                        <h3 id="modal-prod-title" class="text-base sm:text-lg font-black text-neutral-900 mt-1"></h3>
+                    </div>
+
+                    <!-- Real-time Price -->
+                    <div class="text-left sm:text-right">
+                        <span class="text-[10px] text-neutral-400 block">قیمت برای سایز انتخابی:</span>
+                        <span id="modal-prod-price" class="text-base sm:text-lg font-black text-gold-600"></span>
+                    </div>
+                </div>
+
+                <!-- Dynamic Sizes Selection -->
+                <div>
+                    <div class="flex items-center justify-between mb-2">
+                        <label class="text-xs font-black text-neutral-900">انتخاب سایزبندی دقیق:</label>
+                        <span class="text-[10px] text-neutral-400">سایز مدنظر را لمس نمایید</span>
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-2" id="modal-size-grid"></div>
+                </div>
+
+                <!-- Smart Planter Matcher: Placed immediately after size selection for instant visibility -->
+                <div id="modal-smart-planter-box" class="hidden p-3.5 bg-gradient-to-r from-amber-50 to-orange-50 rounded-2xl border-2 border-amber-300 text-xs space-y-2.5 shadow-sm">
+                    <div class="flex items-center justify-between">
+                        <div class="flex items-center gap-1.5 font-black text-amber-950">
+                            <i class="ph-fill ph-sparkle text-base text-amber-600"></i>
+                            <span>گلدان متناسب و پیشنهادی برای این سایز گیاه:</span>
+                        </div>
+                        <span id="smart-matched-planter-label" class="text-[11px] font-bold text-amber-900 bg-white px-2.5 py-0.5 rounded-lg border border-amber-300 shadow-sm"></span>
+                    </div>
+                    <p class="text-[11px] text-amber-900 leading-relaxed font-normal">
+                        برای سلامت ریشه و شادابی این سایز، گلدان فلزی آلورا با سیستم کشوی تخلیه ریلی آب پیشنهاد می‌شود. رنگ دلخواه را انتخاب کنید:
+                    </p>
+                    <!-- Color Swatches for Matched Planter -->
+                    <div class="space-y-2">
+                        <span class="text-[11px] font-black text-neutral-800 block">۱. ابتدا نوع و رنگ گلدان ست را انتخاب کنید:</span>
+                        <div id="smart-planter-colors" class="space-y-2.5"></div>
+                    </div>
+                    <!-- Height / Dimension Selector for Matched Diameter -->
+                    <div id="smart-planter-heights-box" class="space-y-1.5 pt-1 border-t border-amber-200/80">
+                        <span class="text-[11px] font-black text-neutral-800 block">۲. انتخاب ارتفاع گلدان (متناسب با قطر مجاز):</span>
+                        <div id="smart-planter-heights" class="flex flex-wrap gap-1.5"></div>
+                    </div>
+                    <!-- Combined Action -->
+                    <button id="add-paired-bundle-btn" onclick="addPairedBundleToCart()" class="w-full py-2.5 px-3 bg-neutral-900 hover:bg-neutral-800 text-white rounded-xl text-xs font-black flex items-center justify-center gap-2 shadow-md active:scale-95 transition">
+                        <i class="ph-bold ph-plus-circle text-base text-gold-500"></i>
+                        <span id="add-paired-bundle-label">افزودن گیاه + گلدان ست به پیش‌فاکتور</span>
+                    </button>
+                </div>
+
+                <!-- Action Buttons: Directly below size & matched planter -->
+                <div class="pt-2 pb-2 space-y-2 border-b border-brand-200">
+                    <div class="flex items-center gap-2">
+                        <!-- Direct Checkout: Add & immediately open finalize drawer -->
+                        <button onclick="buyNowFromModal()" class="flex-1 py-3 rounded-2xl bg-gold-600 hover:bg-gold-500 text-white text-xs font-black active:scale-95 transition flex items-center justify-center gap-2 shadow-lg shadow-gold-600/20">
+                            <i class="ph-fill ph-lightning text-lg"></i>
+                            <span>تکمیل و نهایی‌سازی سفارش ⚡</span>
+                        </button>
+
+                        <!-- Add to invoice and keep browsing -->
+                        <button id="modal-add-btn" onclick="toggleCartFromModal()" class="flex-1 py-3 rounded-2xl bg-neutral-900 hover:bg-neutral-800 text-white text-xs font-bold active:scale-95 transition flex items-center justify-center gap-2">
+                            <i class="ph ph-plus-circle text-base"></i>
+                            <span id="modal-add-label">افزودن به پیش‌فاکتور</span>
+                        </button>
+                    </div>
+
+                    <button onclick="closeProductModal()" class="w-full py-2.5 rounded-xl bg-brand-100 hover:bg-brand-200 text-neutral-700 text-xs font-bold transition active:scale-95">
+                        بستن و بازگشت به کاتالوگ
+                    </button>
+                </div>
+
+                <!-- Comprehensive Description & Details Section -->
+                <div class="space-y-3 pt-1">
+                    <div class="flex items-center gap-2 text-xs font-black text-neutral-900">
+                        <i class="ph-fill ph-info text-gold-500 text-base"></i>
+                        <span>مشخصات فنی و توضیحات کامل:</span>
+                    </div>
+
+                    <div class="bg-brand-50 p-4 rounded-2xl border border-brand-200 text-xs text-neutral-700 space-y-3">
+                        <p id="modal-prod-desc" class="leading-relaxed font-normal text-justify"></p>
+                        
+                        <!-- Visual Drawer Explanation Box in All Pots -->
+                        <div id="modal-drawer-feature-box" class="p-3 bg-amber-50/80 rounded-2xl border border-amber-200/90 flex flex-col sm:flex-row items-center gap-3">
+                            <img src="https://i.ibb.co/q3pkmzdg/image.png" alt="کشوی خروج آب" class="w-20 h-20 rounded-xl object-cover shrink-0 border border-amber-300 shadow-sm">
+                            <div class="text-[11px] text-amber-950 space-y-1">
+                                <span class="font-black text-amber-900 flex items-center gap-1">
+                                    <i class="ph-fill ph-check-circle text-amber-600"></i>
+                                    تأثیر حیاتی سینی کشویی خروج آب (Drainage Drawer):
+                                </span>
+                                <p class="leading-relaxed">
+                                    آب اضافه آبیاری همراه با نمک‌های مضر بستر به این سینی هدایت می‌شود. این ویژگی مانع خفگی و قارچ‌زدگی ریشه گیاهان حساس (نیکولای، اریکا، زاموفیلیا) شده و بدون نیاز به جابجایی تنه سنگین، کفپوش منزل و دفتر شما کاملاً تمیز و بدون لک باقی می‌ماند.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div id="modal-tech-specs" class="grid grid-cols-2 gap-2 pt-2 border-t border-brand-200/80 text-[11px]"></div>
+
+                        <div id="modal-plant-suggestions" class="pt-2 border-t border-brand-200/80 flex flex-wrap gap-1.5 text-[10px]"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quick Floating Action Bar for Mobile -->
+    <div id="quick-bar" class="fixed bottom-4 inset-x-4 max-w-md mx-auto z-40 bg-neutral-900 text-white p-3 rounded-2xl shadow-2xl flex items-center justify-between border border-neutral-800 translate-y-36 transition-transform duration-300">
+        <div class="flex items-center gap-2.5 pr-2">
+            <span class="w-7 h-7 rounded-xl bg-gold-500 text-neutral-950 font-black text-xs flex items-center justify-center" id="quick-qty">0</span>
+            <div>
+                <span class="text-[10px] text-neutral-400 block">جمع پیش‌فاکتور:</span>
+                <span class="text-xs font-bold" id="quick-total">۰ تومان</span>
+            </div>
+        </div>
+        <button onclick="toggleCartDrawer(true)" class="px-4 py-2 bg-white text-neutral-900 rounded-xl text-xs font-black hover:bg-brand-100 active:scale-95 transition flex items-center gap-1.5">
+            <span>تکمیل و ارسال فاکتور</span>
+            <i class="ph-bold ph-arrow-left"></i>
+        </button>
+    </div>
+
+    <!-- Cart Drawer / Invoice Sheet -->
+    <div id="cart-drawer" class="fixed inset-0 z-50 bg-black/60 backdrop-blur-sm hidden items-end sm:items-center justify-center p-0 sm:p-4">
+        <div class="bg-white w-full sm:max-w-lg rounded-t-3xl sm:rounded-3xl max-h-[92vh] flex flex-col shadow-2xl overflow-hidden">
+            
+            <div class="p-4 sm:p-5 border-b border-brand-200 flex items-center justify-between bg-brand-50">
+                <div class="flex items-center gap-2">
+                    <i class="ph-fill ph-receipt text-xl text-gold-600"></i>
+                    <h3 class="text-sm font-black text-neutral-900">پیش‌فاکتور سفارش گل‌بازار</h3>
+                </div>
+                <button onclick="toggleCartDrawer(false)" class="w-8 h-8 rounded-full bg-white text-neutral-600 flex items-center justify-center border border-brand-200">
+                    <i class="ph ph-x font-bold"></i>
+                </button>
+            </div>
+
+            <!-- Items List -->
+            <div class="p-4 sm:p-5 overflow-y-auto no-scrollbar flex-1 divide-y divide-brand-100" id="cart-items-container"></div>
+
+            <!-- Delivery Calculation & Total (No default shipping) -->
+            <div class="p-4 sm:p-5 bg-brand-50 border-t border-brand-200 space-y-2.5 overflow-y-auto max-h-[65vh] no-scrollbar">
+                
+                <div>
+                    <div class="flex items-center justify-between text-xs font-bold text-neutral-800 mb-1">
+                        <label for="shipping-zone">انتخاب محدوده تحویل (هزینه وانت از بازار گل محلاتی):</label>
+                    </div>
+                    <select id="shipping-zone" onchange="onZoneSelectChange()" class="w-full bg-white border border-brand-200 rounded-xl p-2.5 text-xs text-neutral-800 focus:outline-none focus:border-neutral-900">
+                        <option value="0" selected>-- لطفاً منطقه تحویل را انتخاب کنید --</option>
+                        <option value="950000">پیروزی، تهران‌نو، نبرد، نیروهوایی و اطراف - ۹۵۰,۰۰۰ تومان</option>
+                        <option value="1500000">شمال شرق (ازگل، اقدسیه، نیاوران، پاسداران) - ۱,۵۰۰,۰۰۰ تومان</option>
+                        <option value="1500000">مرکز تهران (ولیعصر، یوسف‌آباد، سهروردی) - ۱,۵۰۰,۰۰۰ تومان</option>
+                        <option value="1500000">جنوب شرق تهران (افسریه، خاوران، مشیریه) - ۱,۵۰۰,۰۰۰ تومان</option>
+                        <option value="2000000">جردن، ونک، میرداماد و ظفر - ۲,۰۰۰,۰۰۰ تومان</option>
+                        <option value="2500000">تجریش و شمال تهران (فرشته، الهیه، زعفرانیه) - ۲,۵۰۰,۰۰۰ تومان</option>
+                        <option value="2500000">غرب تهران (سعادت‌آباد، شهرک غرب، پونک، صادقیه) - ۲,۵۰۰,۰۰۰ تومان</option>
+                        <option value="2800000">جنوب غرب تهران (نازی‌آباد، یافت‌آباد، تهرانسر، آذری) - ۲,۸۰۰,۰۰۰ تومان</option>
+                        <option value="2850000">شمال غرب / ولنجک، درکه و اوین - ۲,۸۵۰,۰۰۰ تومان</option>
+                    </select>
+                </div>
+
+                <!-- Address Input for Intelligent Evaluation -->
+                <div>
+                    <label class="block text-[11px] font-bold text-neutral-700 mb-1">آدرس دقیق تحویل (جهت محاسبه دقیق‌تر وانت):</label>
+                    <input type="text" id="cust-address" oninput="evaluateAddressDistance()" placeholder="مثال: پیروزی، جردن، فرشته، ولنجک، ازگل، سعادت‌آباد..." class="w-full bg-white border border-brand-200 rounded-xl p-2.5 text-xs text-neutral-800 focus:outline-none focus:border-neutral-900">
+                    <p id="shipping-note" class="text-[10px] text-neutral-500 mt-1">منطقه را از منو انتخاب کنید یا نام محله را بنویسید.</p>
+                </div>
+
+                <div class="grid grid-cols-2 gap-2">
+                    <input type="text" id="cust-name" placeholder="نام و نام خانوادگی خریدار" class="bg-white border border-brand-200 rounded-xl p-2 text-xs">
+                    <input type="tel" id="cust-phone" placeholder="شماره تماس پیگیری" class="bg-white border border-brand-200 rounded-xl p-2 text-xs text-left" dir="ltr">
+                </div>
+
+                <!-- Soil & Drainage Option Checkbox -->
+                <div class="bg-emerald-50/90 p-2.5 rounded-xl border border-emerald-200 flex items-center justify-between gap-2">
+                    <label for="include-soil-checkbox" class="flex items-start gap-2 cursor-pointer text-xs font-bold text-emerald-950 select-none">
+                        <input type="checkbox" id="include-soil-checkbox" checked onchange="renderCartList()" class="w-4 h-4 mt-0.5 accent-emerald-700 rounded cursor-pointer shrink-0">
+                        <div>
+                            <span class="block">افزودن خاک با کیفیت، پوکه و زهکشی</span>
+                            <span class="text-[10px] font-normal text-emerald-800 block mt-0.5">بستر غنی و سبک به همراه لایه پوکه معدنی استاندارد برای تهویه ریشه</span>
+                        </div>
+                    </label>
+                    <span id="soil-unit-hint" class="text-[11px] font-black text-emerald-800 bg-white px-2.5 py-0.5 rounded-lg border border-emerald-200 shrink-0">۰ تومان</span>
+                </div>
+
+                <!-- Planting Service Option Checkbox -->
+                <div class="bg-indigo-50/90 p-2.5 rounded-xl border border-indigo-200 flex items-center justify-between gap-2">
+                    <label for="include-planting-checkbox" class="flex items-center gap-2 cursor-pointer text-xs font-bold text-indigo-950 select-none">
+                        <input type="checkbox" id="include-planting-checkbox" checked onchange="renderCartList()" class="w-4 h-4 accent-indigo-700 rounded cursor-pointer">
+                        <span>خدمات کاشت تخصصی</span>
+                    </label>
+                    <span id="planting-unit-hint" class="text-[11px] font-black text-indigo-800 bg-white px-2.5 py-0.5 rounded-lg border border-indigo-200 shrink-0">۰ تومان</span>
+                </div>
+
+                <!-- Doorstep / In-Home Delivery Option Checkbox -->
+                <div class="bg-amber-50/90 p-2.5 rounded-xl border border-amber-200 flex items-center justify-between gap-2">
+                    <label for="inhome-delivery-checkbox" class="flex items-start gap-2 cursor-pointer text-xs font-bold text-amber-950 select-none">
+                        <input type="checkbox" id="inhome-delivery-checkbox" checked onchange="renderCartList()" class="w-4 h-4 mt-0.5 accent-amber-700 rounded cursor-pointer shrink-0">
+                        <div>
+                            <span class="block">تحویل در واحد / داخل منزل (جابجایی به طبقات)</span>
+                            <span class="text-[10px] font-normal text-amber-800 block mt-0.5">با آسانسور بار</span>
+                        </div>
+                    </label>
+                    <span class="text-[11px] font-black text-amber-900 bg-white px-2.5 py-0.5 rounded-lg border border-amber-200 shrink-0">۵۰۰,۰۰۰ ت</span>
+                </div>
+
+                <!-- Smart Care & Fertilizer Upsell Box inside Invoice (Optional Add-on, Not Auto-Added) -->
+                <div class="bg-sky-50/95 p-3 rounded-2xl border-2 border-sky-300 space-y-2">
+                    <div class="flex items-center justify-between">
+                        <span class="text-xs font-black text-sky-950 flex items-center gap-1.5">
+                            <i class="ph-fill ph-flask text-base text-sky-700"></i>
+                            <span>پیشنهاد تخصصی نگهداری و پک رشد گیاه (لبسول آلمان):</span>
+                        </span>
+                        <span class="text-[9px] font-black bg-rose-600 text-white px-2 py-0.5 rounded-full">آمینو سل واجب است</span>
+                    </div>
+                    <p class="text-[10px] text-sky-900 leading-relaxed">
+                        برای جلوگیری از شوک جابجایی و ریزش برگ پس از ارسال، استفاده از <b>آمینو اسید لبسول آلمان</b> ضروری است. در صورت تمایل با لمس دکمه زیر به فاکتور بیفزایید:
+                    </p>
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-1.5 pt-0.5">
+                        <button type="button" onclick="quickAddCareItem('care-amino')" class="p-2 rounded-xl bg-white border-2 border-rose-400 hover:bg-rose-50 text-right flex items-center justify-between gap-1.5 transition active:scale-95 shadow-sm">
+                            <div>
+                                <span class="text-[10px] font-black text-rose-800 block">⭐ آمینو سل لبسول (واجب ضدشوک)</span>
+                                <span class="text-[9px] text-neutral-600">۷۷۰,۰۰۰ تومان</span>
+                            </div>
+                            <span class="px-2 py-1 rounded-lg bg-rose-600 text-white text-[10px] font-black shrink-0">+ افزودن</span>
+                        </button>
+
+                        <button type="button" onclick="quickAddCareItem('care-root')" class="p-2 rounded-xl bg-white border border-sky-200 hover:bg-sky-100 text-right flex items-center justify-between gap-1.5 transition active:scale-95">
+                            <div>
+                                <span class="text-[10px] font-bold text-neutral-900 block">ریشه‌زا ۱۰-۵۲-۱۰ لبسول</span>
+                                <span class="text-[9px] text-neutral-600">۶۹۰,۰۰۰ تومان</span>
+                            </div>
+                            <span class="px-2 py-1 rounded-lg bg-neutral-900 text-white text-[10px] font-bold shrink-0">+ افزودن</span>
+                        </button>
+
+                        <button type="button" onclick="quickAddCareItem('care-potash')" class="p-2 rounded-xl bg-white border border-sky-200 hover:bg-sky-100 text-right flex items-center justify-between gap-1.5 transition active:scale-95">
+                            <div>
+                                <span class="text-[10px] font-bold text-neutral-900 block">پتاس بالا ۱۲-۱۲-۳۶ لبسول</span>
+                                <span class="text-[9px] text-neutral-600">۶۷۰,۰۰۰ تومان</span>
+                            </div>
+                            <span class="px-2 py-1 rounded-lg bg-neutral-900 text-white text-[10px] font-bold shrink-0">+ افزودن</span>
+                        </button>
+
+                        <button type="button" onclick="quickAddCareItem('care-humic')" class="p-2 rounded-xl bg-white border border-sky-200 hover:bg-sky-100 text-right flex items-center justify-between gap-1.5 transition active:scale-95">
+                            <div>
+                                <span class="text-[10px] font-bold text-neutral-900 block">هیومیک اسید (تقویت جذب کود)</span>
+                                <span class="text-[9px] text-neutral-600">۵۳۰,۰۰۰ تومان</span>
+                            </div>
+                            <span class="px-2 py-1 rounded-lg bg-neutral-900 text-white text-[10px] font-bold shrink-0">+ افزودن</span>
+                        </button>
+
+                        <button type="button" onclick="quickAddCareItem('care-seaweed')" class="p-2 rounded-xl bg-white border border-sky-200 hover:bg-sky-100 text-right flex items-center justify-between gap-1.5 transition active:scale-95">
+                            <div>
+                                <span class="text-[10px] font-bold text-neutral-900 block">کود جلبک (پهن شدن برگ)</span>
+                                <span class="text-[9px] text-neutral-600">۴۵۰,۰۰۰ تومان</span>
+                            </div>
+                            <span class="px-2 py-1 rounded-lg bg-neutral-900 text-white text-[10px] font-bold shrink-0">+ افزودن</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Price Summary -->
+                <div class="bg-white p-3 rounded-2xl border border-brand-200 space-y-1.5 text-xs">
+                    <div class="flex items-center justify-between text-neutral-600">
+                        <span>جمع کل اقلام:</span>
+                        <span id="cart-subtotal-badge" class="font-bold">۰ تومان</span>
+                    </div>
+                    <div class="flex items-center justify-between text-emerald-800">
+                        <span>خاک و زهکشی:</span>
+                        <span id="cart-soil-badge" class="font-bold">۰ تومان</span>
+                    </div>
+                    <div class="flex items-center justify-between text-indigo-800">
+                        <span>هزینه کاشت تخصصی:</span>
+                        <span id="cart-planting-badge" class="font-bold">۰ تومان</span>
+                    </div>
+                    <div class="flex items-center justify-between text-neutral-600">
+                        <span>هزینه وانت (تحویل پایین ساختمان):</span>
+                        <span id="cart-shipping-badge" class="font-bold text-amber-700">هنوز انتخاب نشده</span>
+                    </div>
+                    <div class="flex items-center justify-between text-amber-900">
+                        <span>هزینه تحویل در واحد / منزل:</span>
+                        <span id="cart-inhome-badge" class="font-bold">۵۰۰,۰۰۰ تومان</span>
+                    </div>
+                    <div class="flex items-center justify-between text-sm font-black text-neutral-900 pt-1.5 border-t border-brand-100">
+                        <span>مبلغ قابل پرداخت نهایی:</span>
+                        <span id="cart-total-badge" class="text-gold-600">۰ تومان</span>
+                    </div>
+                </div>
+
+                <!-- Actions: Direct WhatsApp & Telegram Send -->
+                <div class="grid grid-cols-2 gap-2 pt-1">
+                    <button onclick="sendToWhatsApp()" class="py-3 bg-emerald-600 hover:bg-emerald-500 text-white rounded-xl text-xs font-black flex items-center justify-center gap-1.5 active:scale-95 transition shadow-sm">
+                        <i class="ph-bold ph-whatsapp-logo text-base"></i>
+                        <span>ارسال فاکتور در واتساپ</span>
+                    </button>
+                    <button onclick="sendToTelegram()" class="py-3 bg-sky-600 hover:bg-sky-500 text-white rounded-xl text-xs font-black flex items-center justify-center gap-1.5 active:scale-95 transition shadow-sm">
+                        <i class="ph-bold ph-paper-plane-tilt text-base"></i>
+                        <span>ارسال در تلگرام</span>
+                    </button>
+                </div>
+
+                <button onclick="copyInvoiceText()" class="w-full py-2.5 bg-neutral-900 text-white hover:bg-neutral-800 rounded-xl text-xs font-black flex items-center justify-center gap-1.5 active:scale-95 transition shadow-sm">
+                    <i class="ph-bold ph-copy text-base text-gold-500"></i>
+                    <span id="copy-status">کپی متن کامل پیش‌فاکتور</span>
+                </button>
+
+                <div class="flex items-center justify-between text-[10px] text-neutral-500 px-1 pt-1">
+                    <span>پشتیبانی مستقیم: ۰۹۲۳۱۲۷۹۳۳۸</span>
+                    <span>آیدی تلگرام: GolBazarSup@</span>
+                </div>
+                <div class="flex items-center justify-center gap-4 text-[10px] text-neutral-600 font-bold pt-1 border-t border-brand-200">
+                    <span>تلفن‌های ثابت فروشگاه:</span>
+                    <a href="tel:02133363670" class="hover:text-neutral-900">۳۳۳۶۳۶۷۰ - ۰۲۱</a>
+                    <span>|</span>
+                    <a href="tel:02133363680" class="hover:text-neutral-900">۳۳۳۶۳۶۸۰ - ۰۲۱</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Drawer Demonstration Modal -->
+    <div id="drawer-demo-modal" class="fixed inset-0 z-50 bg-black/70 backdrop-blur-md hidden items-center justify-center p-4">
+        <div class="bg-white max-w-sm w-full rounded-3xl p-5 shadow-2xl relative text-center">
+            <button onclick="closeDrawerDemoModal()" class="absolute top-3.5 left-3.5 w-8 h-8 rounded-full bg-brand-100 text-neutral-700 flex items-center justify-center">
+                <i class="ph ph-x font-bold"></i>
+            </button>
+            <div class="w-16 h-16 rounded-2xl bg-amber-100 text-amber-800 mx-auto flex items-center justify-center mb-3">
+                <i class="ph-fill ph-tray text-3xl"></i>
+            </div>
+            <h4 class="text-sm font-black text-neutral-900 mb-1">سیستم اختصاصی کشوی خروج آب ریلی ALORA</h4>
+            <div class="my-3 rounded-2xl overflow-hidden border border-brand-200 shadow-inner">
+                <img src="https://i.ibb.co/q3pkmzdg/image.png" alt="کشوی تخلیه آب" class="w-full h-44 object-cover">
+            </div>
+            <p class="text-xs text-neutral-700 leading-relaxed mb-3 text-right">
+                انتهای تمامی گلدان‌ها مجهز به سینی کشویی ریلی همرنگ بدنه است. آب اضافی بعد از آبیاری فوراً به داخل این سینی تخلیه می‌شود؛ شما تنها کشو را بیرون کشیده، تخلیه کرده و سر جای خود قرار می‌دهید.
+            </p>
+            <div class="p-3 bg-amber-50 rounded-2xl border border-amber-200 text-[11px] text-amber-900 text-right space-y-1.5 mb-4 font-medium">
+                <p>✓ <b>تنفس آزادانه ریشه:</b> جلوگیری قطعی از گندیدگی ریشه و زرد شدن برگ گیاهان لوکس.</p>
+                <p>✓ <b>دفع رسوبات و شوری خاک:</b> شستشوی املاح مازاد بدون کثیف‌کاری.</p>
+                <p>✓ <b>حفاظت ۱۰۰٪ از کف:</b> بدون کوچک‌ترین پس‌دادن رطوبت روی سنگ، پارکت و موکت.</p>
+                <p>✓ <b>جابجایی نرم:</b> ۴ چرخ هرزگرد مخفی صنعتی تعبیه‌شده در زیر شاسی گلدان.</p>
+            </div>
+            <button onclick="closeDrawerDemoModal()" class="w-full py-2.5 bg-neutral-900 text-white rounded-xl text-xs font-bold">متوجه شدم</button>
+        </div>
+    </div>
+
+    <!-- Notification Toast -->
+    <div id="toast" class="fixed top-4 left-1/2 -translate-x-1/2 z-50 bg-neutral-900 text-white text-xs px-4 py-2.5 rounded-full shadow-2xl opacity-0 pointer-events-none transition-all duration-300">
+        پیام
+    </div>
+
+    <!-- Footer -->
+    <footer class="mt-12 py-6 border-t border-brand-200 bg-white text-center text-xs text-neutral-500 space-y-1">
+        <p class="font-bold text-neutral-800">کالکشن تخصصی گلدان‌های فلزی مدرن ALORA و گیاهان آپارتمانی لوکس • گل‌بازار</p>
+        <p class="text-[11px]">مستقر در بازار گل محلاتی • تلفن‌های تماس: ۳۳۳۶۳۶۷۰ - ۳۳۳۶۳۶۸۰ • واتساپ و تلگرام: ۰۹۲۳۱۲۷۹۳۳۸</p>
+    </footer>
+
+    <script>
+        // Pricing Models
+        const TYPE1_SIZES = [
+            { id: 1, diam: 40, height: 50, label: "قطر ۴۰ × ارتفاع ۵۰ سانت", basePrice: 8200000, beigePrice: 8700000 },
+            { id: 2, diam: 50, height: 50, label: "قطر ۵۰ × ارتفاع ۵۰ سانت", basePrice: 9700000, beigePrice: 10200000 },
+            { id: 3, diam: 50, height: 60, label: "قطر ۵۰ × ارتفاع ۶۰ سانت", basePrice: 11000000, beigePrice: 11500000 }
+        ];
+
+        // فهرست اختصاصی و بهینه‌شده ۱۴ سایز نیکولای دقیقاً بر مبنای لیست و لینک‌های دائمی Cloudinary شما
+        const NICOLAI_SIZES = [
+            { 
+                id: 201, 
+                label: "تک بوته (۹۰ تا ۱۱۰ سانت)", 
+                basePrice: 2400000, 
+                image: "https://res.cloudinary.com/v1vmbcpf/image/upload/v1795071087/InShot_20261025_153141295.jpg",
+                recommendedPlanter: { sizeId: 1, label: "قطر ۴۰ × ارتفاع ۵۰ سانت" }
+            },
+            { 
+                id: 202, 
+                label: "تک بوته (۱۲۰ تا ۱۴۰ سانت)", 
+                basePrice: 3400000, 
+                image: "https://res.cloudinary.com/v1vmbcpf/image/upload/v1795071089/IMG_%DB%B2%DB%B0%DB%B2%DB%B6%DB%B0%DB%B8%DB%B1%DB%B7_%DB%B0%DB%B7%DB%B3%DB%B2%DB%B3%DB%B8.jpg_20260926093415.jpg",
+                recommendedPlanter: { sizeId: 1, label: "قطر ۴۰ × ارتفاع ۵۰ سانت" }
+            },
+            { 
+                id: 203, 
+                label: "تک بوته (۱۴۰ تا ۱۶۰ سانت)", 
+                basePrice: 5400000, 
+                image: "https://res.cloudinary.com/v1vmbcpf/image/upload/v1795071097/Enhance_photo_quality_and_remove__20260927063855.jpg",
+                recommendedPlanter: { sizeId: 2, label: "قطر ۵۰ × ارتفاع ۵۰ سانت" }
+            },
+            { 
+                id: 204, 
+                label: "تک بوته (۱۶۰ تا ۱۸۰ سانت)", 
+                basePrice: 6400000, 
+                image: "https://res.cloudinary.com/v1vmbcpf/image/upload/v1795071101/IMG_%DB%B2%DB%B0%DB%B2%DB%B6%DB%B0%DB%B8%DB%B0%DB%B6_%DB%B0%DB%B9%DB%B2%DB%B1%DB%B1%DB%B7.jpg",
+                recommendedPlanter: { sizeId: 2, label: "قطر ۵۰ × ارتفاع ۵۰ سانت" }
+            },
+            { 
+                id: 205, 
+                label: "تک بوته (۲۰۰ تا ۲۲۰ سانت)", 
+                basePrice: 10000000, 
+                image: "https://res.cloudinary.com/v1vmbcpf/image/upload/v1795071388/image.png_6c054fe5.jpg",
+                recommendedPlanter: { sizeId: 3, label: "قطر ۵۰ × ارتفاع ۶۰ سانت" }
+            },
+            { 
+                id: 206, 
+                label: "دو بوته (۹۰ تا ۱۱۰ سانت)", 
+                basePrice: 4400000, 
+                image: "https://res.cloudinary.com/v1vmbcpf/image/upload/v1795071117/photo_2026-10-10_07-57-31.jpg_20261014193449.jpg",
+                recommendedPlanter: { sizeId: 1, label: "قطر ۴۰ × ارتفاع ۵۰ سانت" }
+            },
+            { 
+                id: 207, 
+                label: "دو بوته (۱۲۰ تا ۱۴۰ سانت)", 
+                basePrice: 5400000, 
+                image: "https://res.cloudinary.com/v1vmbcpf/image/upload/v1795071120/IMG_%DB%B2%DB%B0%DB%B2%DB%B6%DB%B1%DB%B0%DB%B2%DB%B0_%DB%B1%DB%B1%DB%B2%DB%B6%DB%B3%DB%B9.jpg_4bd7572e.jpg",
+                recommendedPlanter: { sizeId: 2, label: "قطر ۵۰ × ارتفاع ۵۰ سانت" }
+            },
+            { 
+                id: 208, 
+                label: "دو بوته (۱۴۰ تا ۱۶۰ سانت)", 
+                basePrice: 7400000, 
+                image: "https://res.cloudinary.com/v1vmbcpf/image/upload/v1795071124/IMG_%DB%B2%DB%B0%DB%B2%DB%B6%DB%B1%DB%B1%DB%B0%DB%B6_%DB%B1%DB%B1%DB%B5%DB%B6%DB%B0%DB%B7.jpg",
+                recommendedPlanter: { sizeId: 2, label: "قطر ۵۰ × ارتفاع ۵۰ سانت" }
+            },
+            { 
+                id: 209, 
+                label: "دو بوته (۱۶۰ تا ۱۸۰ سانت)", 
+                basePrice: 8700000, 
+                image: "https://res.cloudinary.com/v1vmbcpf/image/upload/v1795071128/IMG_%DB%B2%DB%B0%DB%B2%DB%B6%DB%B0%DB%B8%DB%B1%DB%B1_%DB%B0%DB%B7%DB%B5%DB%B0%DB%B0%DB%B7.jpg_20260926093623.jpg",
+                recommendedPlanter: { sizeId: 3, label: "قطر ۵۰ × ارتفاع ۶۰ سانت" }
+            },
+            { 
+                id: 210, 
+                label: "دو بوته (۱۸۰ تا ۲۰۰ سانت)", 
+                basePrice: 10400000, 
+                image: "https://res.cloudinary.com/v1vmbcpf/image/upload/v1795071133/IMG_%DB%B2%DB%B0%DB%B2%DB%B6%DB%B1%DB%B1%DB%B1%DB%B3_%DB%B0%DB%B9%DB%B4%DB%B6%DB%B3%DB%B3.jpg_537202ba_2K.jpg",
+                recommendedPlanter: { sizeId: 3, label: "قطر ۵۰ × ارتفاع ۶۰ سانت" }
+            },
+            { 
+                id: 211, 
+                label: "سه بوته (۹۰ تا ۱۱۰ سانت) [دارای ۲ تصویر]", 
+                basePrice: 5400000, 
+                image: "https://res.cloudinary.com/v1vmbcpf/image/upload/v1795071144/photo_2026-10-27_08-47-45.jpg", 
+                galleryImages: [
+                    "https://res.cloudinary.com/v1vmbcpf/image/upload/v1795071144/photo_2026-10-27_08-47-45.jpg", 
+                    "https://res.cloudinary.com/v1vmbcpf/image/upload/v1795071149/photo_2026-10-27_08-50-58.jpg"
+                ],
+                recommendedPlanter: { sizeId: 2, label: "قطر ۵۰ × ارتفاع ۵۰ سانت" }
+            },
+            { 
+                id: 212, 
+                label: "سه بوته (۱۲۰ تا ۱۴۰ سانت)", 
+                basePrice: 6800000, 
+                image: "https://res.cloudinary.com/v1vmbcpf/image/upload/v1795071153/image.png_e87de547_2K.jpg",
+                galleryImages: [
+                    "https://res.cloudinary.com/v1vmbcpf/image/upload/v1795071153/image.png_e87de547_2K.jpg"
+                ],
+                recommendedPlanter: { sizeId: 2, label: "قطر ۵۰ × ارتفاع ۵۰ سانت" }
+            },
+            { 
+                id: 213, 
+                label: "سه بوته (۱۶۰ تا ۱۸۰ سانت)", 
+                basePrice: 11400000, 
+                image: "https://res.cloudinary.com/v1vmbcpf/image/upload/v1795071189/image.png_3ab7c6e0.jpg",
+                recommendedPlanter: { sizeId: 3, label: "قطر ۵۰ × ارتفاع ۶۰ سانت" }
+            },
+            { 
+                id: 214, 
+                label: "سه بوته (۱۸۰ تا ۲۰۰ سانت)", 
+                basePrice: 13400000, 
+                image: "https://res.cloudinary.com/v1vmbcpf/image/upload/v1795071193/photo_2026-10-16_08-59-15.jpg",
+                recommendedPlanter: { sizeId: 3, label: "قطر ۵۰ × ارتفاع ۶۰ سانت" }
+            }
+        ];
+
+        const ARIKA_SIZES = [
+            { 
+                id: 301, 
+                label: "سایز ۷۵ سانتی", 
+                basePrice: 2200000, 
+                image: "https://res.cloudinary.com/v1vmbcpf/image/upload/v1794916740/IMG_%DB%B2%DB%B0%DB%B2%DB%B6%DB%B1%DB%B1%DB%B0%DB%B7_%DB%B1%DB%B2%DB%B0%DB%B7%DB%B5%DB%B8.jpg_770d3a0f.jpg3.jpg",
+                recommendedPlanter: { sizeId: 10, label: "قطر ۴۰ × ارتفاع ۴۰ سانت" } 
+            },
+            { 
+                id: 302, 
+                label: "سایز ۱۱۰ سانتی (دو بوته)", 
+                basePrice: 3500000, 
+                image: "https://res.cloudinary.com/v1vmbcpf/image/upload/v1794916930/image_2026-11-05_11-15-01.png_a5182850.jpg%D8%B3.jpg",
+                recommendedPlanter: { sizeId: 1, label: "قطر ۴۰ × ارتفاع ۵۰ سانت" } 
+            },
+            { 
+                id: 303, 
+                label: "سایز ۱۱۰ سانتی پُر (چند بوته)", 
+                basePrice: 5500000, 
+                image: "https://res.cloudinary.com/v1vmbcpf/image/upload/v1794917699/IMG_%DB%B2%DB%B0%DB%B2%DB%B6%DB%B1%DB%B1%DB%B0%DB%B7_%DB%B1%DB%B2%DB%B0%DB%B7%DB%B0%DB%B5.jpg_98227e71.jpg%D8%B3.jpg",
+                recommendedPlanter: { sizeId: 1, label: "قطر ۴۰ × ارتفاع ۵۰ سانت" } 
+            },
+            { 
+                id: 304, 
+                label: "سایز ۱۳۰ سانتی پُر (سه بوته) [۳ تصویر]", 
+                basePrice: 6500000, 
+                image: "https://res.cloudinary.com/v1vmbcpf/image/upload/v1794983662/image.png_3530ccea.jpg%D8%B3.jpg",
+                galleryImages: [
+                    "https://res.cloudinary.com/v1vmbcpf/image/upload/v1794983662/image.png_3530ccea.jpg%D8%B3.jpg",
+                    "https://res.cloudinary.com/v1vmbcpf/image/upload/v1794983691/photo_2026-11-15_13-20-32.jpg",
+                    "https://res.cloudinary.com/v1vmbcpf/image/upload/v1794983698/IMG_%DB%B2%DB%B0%DB%B2%DB%B6%DB%B1%DB%B1%DB%B0%DB%B4_%DB%B0%DB%B9%DB%B2%DB%B5%DB%B5%DB%B4.jpg_7d35af0e.jpg%D8%B3.jpg"
+                ],
+                recommendedPlanter: { sizeId: 1, label: "قطر ۴۰ × ارتفاع ۵۰ سانت" } 
+            },
+            { 
+                id: 305, 
+                label: "سایز ۱۵۰ سانتی متوسط", 
+                basePrice: 7300000, 
+                image: "https://res.cloudinary.com/v1vmbcpf/image/upload/v1794983896/photo_2026-10-22_17-52-30.jpg",
+                recommendedPlanter: { sizeId: 1, label: "قطر ۴۰ × ارتفاع ۵۰ سانت" } 
+            },
+            { 
+                id: 306, 
+                label: "سایز ۱۵۰ سانتی پُر", 
+                basePrice: 9100000, 
+                image: "https://res.cloudinary.com/v1vmbcpf/image/upload/v1794983978/InShot_20260921_093733716.jpg",
+                recommendedPlanter: { minDiam: 40, sizeId: 1, label: "حداقل قطر ۴۰ سانت (ارتفاع ۴۰ تا ۶۰)" } 
+            },
+            { 
+                id: 307, 
+                label: "سایز ۱۹۰ سانتی متوسط", 
+                basePrice: 9900000, 
+                image: "https://res.cloudinary.com/v1vmbcpf/image/upload/v1794983994/IMG_%DB%B2%DB%B0%DB%B2%DB%B6%DB%B1%DB%B1%DB%B0%DB%B4_%DB%B1%DB%B1%DB%B1%DB%B1%DB%B3%DB%B6.jpg",
+                recommendedPlanter: { minDiam: 40, sizeId: 1, label: "حداقل قطر ۴۰ سانت (ارتفاع ۴۰ تا ۶۰)" } 
+            },
+            { 
+                id: 308, 
+                label: "سایز ۱۹۰ سانتی پُر (سه بوته)", 
+                basePrice: 15000000, 
+                image: "https://res.cloudinary.com/v1vmbcpf/image/upload/v1794984011/image.png_84646946.jpg",
+                recommendedPlanter: { minDiam: 50, sizeId: 2, label: "حداقل قطر ۵۰ سانت (ارتفاع ۵۰ یا ۶۰)" } 
+            },
+            { 
+                id: 309, 
+                label: "سایز غول ۲۲۰ سانت پُر (سه بوته بزرگ)", 
+                basePrice: 17000000, 
+                image: "https://res.cloudinary.com/v1vmbcpf/image/upload/v1794984020/InShot_20260921_094142780.jpg",
+                recommendedPlanter: { minDiam: 50, sizeId: 3, label: "حداقل قطر ۵۰ سانت (ارتفاع ۵۰ یا ۶۰)" } 
+            }
+        ];
+
+        // فهرست اختصاصی و بهینه‌شده پله‌موآ (بامبو خاکی) با لینک‌های مستقیم آپلودکن
+        const PELEMOA_SIZES = [
+            { 
+                id: 401, 
+                label: "سایز ۳۵ سانتی", 
+                basePrice: 1500000, 
+                image: "https://uploadkon.ir/uploads/f35414_26InShot-20260920-101024836.jpg",
+                galleryImages: [
+                    "https://uploadkon.ir/uploads/f35414_26InShot-20260920-101024836.jpg"
+                ],
+                recommendedPlanter: { sizeId: 10, label: "قطر ۴۰ × ارتفاع ۴۰ سانت" } 
+            },
+            { 
+                id: 402, 
+                label: "سایز ۸۰ تا ۱۰۰ سانت [۲ تصویر]", 
+                basePrice: 5500000, 
+                image: "https://uploadkon.ir/uploads/35ed14_26IMG-۲۰۲۶۱۰۰۸-۰۹۴۸۲۲.jpg",
+                galleryImages: [
+                    "https://uploadkon.ir/uploads/35ed14_26IMG-۲۰۲۶۱۰۰۸-۰۹۴۸۲۲.jpg",
+                    "https://uploadkon.ir/uploads/06fb14_26InShot-20260920-101153978.jpg"
+                ],
+                recommendedPlanter: { sizeId: 1, label: "قطر ۴۰ × ارتفاع ۵۰ سانت" } 
+            },
+            { 
+                id: 403, 
+                label: "سایز ۱۲۰ تا ۱۴۰ معمولی [۲ تصویر]", 
+                basePrice: 7500000, 
+                image: "https://uploadkon.ir/uploads/b3c814_26image-png-7892be4c.jpg",
+                galleryImages: [
+                    "https://uploadkon.ir/uploads/b3c814_26image-png-7892be4c.jpg",
+                    "https://uploadkon.ir/uploads/94f614_26IMG-۲۰۲۶۱۱۰۷-۱۶۳۰۲۹.jpg"
+                ],
+                recommendedPlanter: { sizeId: 1, label: "قطر ۴۰ × ارتفاع ۵۰ سانت" } 
+            },
+            { 
+                id: 404, 
+                label: "سایز ۱۲۰ تا ۱۴۰ متوسط [۲ تصویر]", 
+                basePrice: 12000000, 
+                image: "https://uploadkon.ir/uploads/711014_26photo-2026-10-18-08-30-22.jpg",
+                galleryImages: [
+                    "https://uploadkon.ir/uploads/711014_26photo-2026-10-18-08-30-22.jpg",
+                    "https://uploadkon.ir/uploads/675c14_26IMG-۲۰۲۶۱۰۱۸-۱۱۵۴۲۱-jpg-1cb3f8d8.jpg"
+                ],
+                recommendedPlanter: { sizeId: 2, label: "قطر ۵۰ × ارتفاع ۵۰ سانت" } 
+            },
+            { 
+                id: 405, 
+                label: "سایز ۱۲۰ تا ۱۴۰ تنه‌دار [۲ تصویر]", 
+                basePrice: 15000000, 
+                image: "https://uploadkon.ir/uploads/d68c14_26InShot-20260920-101651815.jpg",
+                galleryImages: [
+                    "https://uploadkon.ir/uploads/d68c14_26InShot-20260920-101651815.jpg",
+                    "https://uploadkon.ir/uploads/031314_26IMG-۲۰۲۶۰۸۱۵-۰۸۲۰۵۰.jpg"
+                ],
+                recommendedPlanter: { sizeId: 2, label: "قطر ۵۰ × ارتفاع ۵۰ سانت" } 
+            },
+            { 
+                id: 406, 
+                label: "سایز ۱۵۰ تا ۱۷۰ سانت [۴ تصویر]", 
+                basePrice: 19000000, 
+                image: "https://uploadkon.ir/uploads/0a9914_26photo-2026-10-19-17-32-49.jpg",
+                galleryImages: [
+                    "https://uploadkon.ir/uploads/0a9914_26photo-2026-10-19-17-32-49.jpg",
+                    "https://uploadkon.ir/uploads/6fd814_26IMG-20261003-095819.jpg",
+                    "https://uploadkon.ir/uploads/386e14_26IMG-۲۰۲۶۰۹۰۶-۱۰۵۸۱۴.jpg",
+                    "https://uploadkon.ir/uploads/ce1214_26photo-2026-09-05-12-33-02.jpg"
+                ],
+                recommendedPlanter: { sizeId: 3, label: "قطر ۵۰ × ارتفاع ۶۰ سانت" } 
+            },
+            { 
+                id: 407, 
+                label: "سایز ۱۸۰ تا ۲۰۰ سانت [۳ تصویر]", 
+                basePrice: 25000000, 
+                image: "https://uploadkon.ir/uploads/a01714_26image-png-202609050853.jpeg",
+                galleryImages: [
+                    "https://uploadkon.ir/uploads/a01714_26image-png-202609050853.jpeg",
+                    "https://uploadkon.ir/uploads/22cf14_26IMG-۲۰۲۶۰۹۰۶-۱۰۵۹۰۶.jpg",
+                    "https://uploadkon.ir/uploads/689414_26IMG-۲۰۲۶۰۹۰۶-۱۰۵۸۴۹.jpg"
+                ],
+                recommendedPlanter: { sizeId: 3, label: "قطر ۵۰ × ارتفاع ۶۰ سانت" } 
+            }
+        ];
+
+        const WHATSAPP_PHONE = "989231279338";
+        const TELEGRAM_HANDLE = "GolBazarSup";
+
+        // Global State variables
+        let activeFilter = 'all';
+        let searchQuery = '';
+        let currentModalProduct = null;
+        let selectedSizeId = null;
+        let selectedPairedPlanterId = 't1-beige'; // Default paired planter color
+        let selectedPairedPlanterSizeId = null; // Selected height/dimension for paired planter
+        let cart = [];
+        let currentShippingCost = 0;
+
+        // تبدیل قطعی لینک‌های ibb.co به آدرس مستقیم سرور تصویر و ارتقای کیفیت Cloudinary
+        function resolveImageUrl(url) {
+            if (!url) return 'https://placehold.co/600x600/204028/FFFFFF?text=GolBazar';
+            
+            // ارتقای خودکار وضوح و کیفیت تصاویر Cloudinary برای نمایش شفاف در موبایل و دسکتاپ
+            if (url.includes('res.cloudinary.com/') && url.includes('/upload/') && !url.includes('/q_auto')) {
+                return url.replace('/upload/', '/upload/q_auto:best,f_auto,w_1000/');
+            }
+
+            // اگر آدرس i.ibb.co مستقیم بود مستقیماً برگرداند
+            if (url.includes('i.ibb.co/')) {
+                return url;
+            }
+
+            // استخراج شناسه منحصربه‌فرد لینک‌های اشتراکی ibb.co
+            if (url.includes('ibb.co/')) {
+                const slug = url.split('ibb.co/')[1].split('/')[0].replace(/[^a-zA-Z0-9]/g, '');
+                return `https://i.ibb.co/${slug}/image.jpg`;
+            }
+            return url;
+        }
+
+        function formatPriceToman(amount) {
+            if (amount === null || amount === 'inquiry' || amount === 0) {
+                return 'استعلام تلفنی';
+            }
+            return Number(amount).toLocaleString('fa-IR') + ' تومان';
+        }
+
+        const products = [
+            // LUXURY PLANTS LINE (First in Order)
+            {
+                id: 'plant-nicolai',
+                type: 'plants',
+                name: "استرلیتزیا نیکولای (پرنده بهشتی غول‌پیکر)",
+                category: "plants",
+                isBeige: false,
+                colorName: "برگ پهن موزی استوایی",
+                hex: "#2E5A36",
+                cssClass: "",
+                badge: "گیاه آپارتمانی لوکس",
+                finish: "تک بوته، دو بوته و سه بوته در ابعاد مختلف",
+                desc: "استرلیتزیا نیکولای با برگ‌های بزرگ و بادبزنی سبز تیره، نماد دکوراسیون‌های مدرن و مینیمال است. این گیاه عاشق نور غیرمستقیم و فراوان کنار پنجره است و با آبیاری منظم پس از خشک شدن سطح خاک (حدود ۳ تا ۴ سانتی‌متر رویی)، سال‌ها بدون ریزش و با رشد چشمگیر در منزل یا دفتر کار شما شاداب می‌ماند.",
+                defaultImage: "https://res.cloudinary.com/v1vmbcpf/image/upload/v1795071087/InShot_20261025_153141295.jpg",
+                realPhoto: "https://res.cloudinary.com/v1vmbcpf/image/upload/v1795071087/InShot_20261025_153141295.jpg",
+                hasSeam: false,
+                isPlant: true
+            },
+            {
+                id: 'plant-arika',
+                type: 'plants',
+                name: "نخل اریکا اصیل ماداگاسکار",
+                category: "plants",
+                isBeige: false,
+                colorName: "سبز پریوش متراکم",
+                hex: "#437844",
+                cssClass: "",
+                badge: "گیاه آپارتمانی لوکس",
+                finish: "سایز ۷۵ سانتی تا غول ۲۲۰ سانتی سه بوته",
+                desc: "نخل اریکا یکی از برترین گیاهان تصفیه‌کننده هوا و مرطوب‌کننده طبیعی فضا در دنیاست. ساقه‌های طلایی-سبز و برگ‌های پرپشت آن حس طراوت جنگل‌های استوایی را ایجاد می‌کند. اریکا به نور فیلترشده و روشن علاقه دارد و استفاده از گلدان‌های دارای کشوی تخلیه آب، از تجمع املاح در ریشه آن کاملاً جلوگیری می‌کند.",
+                defaultImage: "https://res.cloudinary.com/v1vmbcpf/image/upload/v1794983662/image.png_3530ccea.jpg%D8%B3.jpg",
+                realPhoto: "https://res.cloudinary.com/v1vmbcpf/image/upload/v1794983662/image.png_3530ccea.jpg%D8%B3.jpg",
+                hasSeam: false,
+                isPlant: true
+            },
+            {
+                id: 'plant-pelemoa',
+                type: 'plants',
+                name: "پله‌موآ لوکس (بامبو خاکی)",
+                category: "plants",
+                isBeige: false,
+                colorName: "سبز یشمی مقاوم",
+                hex: "#1E4B28",
+                cssClass: "",
+                badge: "گیاه آپارتمانی لوکس",
+                finish: "سایز ۳۵ سانتی تا تنه‌دار و ۲۰۰ سانتی",
+                desc: "گیاه خاص و بسیار جان‌سخت پله‌موآ (بامبو خاکی) با تنه‌های چوبی ضخیم و برگ‌های کشیده سبز یشمی، گزینه‌ای بی‌نظیر برای فضاهای مسکونی و اداری با نور متوسط تا زیاد است. این گیاه در برابر تغییرات دمایی بسیار مقاوم بوده و نگهداری فوق‌العاده آسانی دارد.",
+                defaultImage: "https://uploadkon.ir/uploads/b3c814_26image-png-7892be4c.jpg",
+                realPhoto: "https://uploadkon.ir/uploads/b3c814_26image-png-7892be4c.jpg",
+                hasSeam: false,
+                isPlant: true
+            },
+
+            // 1. Beige Metallic ALORA
+            {
+                id: 't1-beige',
+                type: 'type1',
+                name: "گلدان نوع اول: «بژ شامپاینی متالیک» ALORA",
+                category: "metallic",
+                isBeige: true,
+                colorName: "بژ شامپاینی متالیک",
+                hex: "#D6C7AC",
+                cssClass: "metallic-champagne",
+                badge: "صادراتی ALORA",
+                finish: "پوشش پودری متالیک آلمانی • بدون خط درز ورق",
+                desc: "گلدان فلزی نوع اول (صادراتی آلورا) با رنگ خاص بژ شامپاینی متالیک. فاقد هرگونه خط جوش یا نورد روی بدنه، دارای کشوی ریلی تخلیه آب و ۴ چرخ بلبرینگی مخفی روان.",
+                realPhoto: "https://uploadkon.ir/uploads/f5b614_26IMG-۲۰۲۶۱۰۰۸-۱۰۰۱۴۹.jpg",
+                customSizes: [
+                    { id: 1, label: "قطر ۴۰ × ارتفاع ۵۰ سانت", price: 8700000, image: "https://uploadkon.ir/uploads/f5b614_26IMG-۲۰۲۶۱۰۰۸-۱۰۰۱۴۹.jpg" },
+                    { id: 2, label: "قطر ۵۰ × ارتفاع ۵۰ سانت", price: 10200000, image: "https://uploadkon.ir/uploads/365714_26photo-2026-11-14-12-15-18.jpg" },
+                    { id: 3, label: "قطر ۵۰ × ارتفاع ۶۰ سانت", price: 11500000, image: "https://uploadkon.ir/uploads/d8aa14_26IMG-۲۰۲۶۱۱۱۳-۱۲۰۶۲۹.jpg" }
+                ],
+                hasSeam: false,
+                isPlant: false
+            },
+            // 2. Glossy Burgundy ALORA
+            {
+                id: 't1-burgundy-glossy',
+                type: 'type1',
+                name: "گلدان نوع اول: «زرشکی یاقوتی براق» ALORA",
+                category: "metallic",
+                isBeige: false,
+                colorName: "زرشکی یاقوتی براق",
+                hex: "#8A1C26",
+                cssClass: "metallic-burgundy",
+                badge: "صادراتی ALORA",
+                finish: "رنگ کوره‌ای براق عمق‌دار • بدون خط درز",
+                desc: "گلدان نوع اول آلورا با رنگ زرشکی یاقوتی براق صیقلی و یکپارچه بدون موج ورق، مجهز به کشوی ریلی خروج آب و چرخ‌های مخفی هرزگرد.",
+                realPhoto: "https://uploadkon.ir/uploads/d23414_26IMG-۲۰۲۶۱۰۰۸-۱۰۰۱۵۹.jpg",
+                customSizes: [
+                    { id: 1, label: "قطر ۴۰ × ارتفاع ۵۰ سانت", price: 8200000, image: "https://uploadkon.ir/uploads/d23414_26IMG-۲۰۲۶۱۰۰۸-۱۰۰۱۵۹.jpg" },
+                    { id: 2, label: "قطر ۵۰ × ارتفاع ۵۰ سانت", price: 9700000, image: "https://uploadkon.ir/uploads/d23414_26IMG-۲۰۲۶۱۰۰۸-۱۰۰۱۵۹.jpg" },
+                    { id: 3, label: "قطر ۵۰ × ارتفاع ۶۰ سانت", price: 11000000, image: "https://uploadkon.ir/uploads/d23414_26IMG-۲۰۲۶۱۰۰۸-۱۰۰۱۵۹.jpg" }
+                ],
+                hasSeam: false,
+                isPlant: false
+            },
+            // 3. Matte Burgundy ALORA
+            {
+                id: 't1-burgundy-matte',
+                type: 'type1',
+                name: "گلدان نوع اول: «زرشکی مات مخملی» ALORA",
+                category: "metallic",
+                isBeige: false,
+                colorName: "زرشکی مات مخملی",
+                hex: "#59131B",
+                cssClass: "matte-burgundy",
+                badge: "صادراتی ALORA",
+                finish: "پوشش پودری مخملی مات آلمانی • ضدخش",
+                desc: "گلدان فلزی نوع اول آلورا زرشکی مات با نمای بسیار لوکس در فضای داخلی منزل و محیط‌های مدرن، دارای سینی کشویی آبریز و چرخ‌های بلبرینگی مخفی.",
+                realPhoto: "https://uploadkon.ir/uploads/38a814_26IMG-۲۰۲۶۱۰۱۲-۰۹۳۸۴۴.jpg",
+                customSizes: [
+                    { id: 2, label: "قطر ۵۰ × ارتفاع ۵۰ سانت", price: 9700000, image: "https://uploadkon.ir/uploads/38a814_26IMG-۲۰۲۶۱۰۱۲-۰۹۳۸۴۴.jpg" },
+                    { id: 3, label: "قطر ۵۰ × ارتفاع ۶۰ سانت (نمای محیطی)", price: 11000000, image: "https://uploadkon.ir/uploads/db7d14_26IMG-۲۰۲۶۱۰۲۶-۱۱۲۴۲۲.jpg", galleryImages: ["https://uploadkon.ir/uploads/db7d14_26IMG-۲۰۲۶۱۰۲۶-۱۱۲۴۲۲.jpg", "https://uploadkon.ir/uploads/a3cd14_26IMG-۲۰۲۶۱۰۲۰-۱۲۳۱۳۷.jpg"] }
+                ],
+                hasSeam: false,
+                isPlant: false
+            },
+            // 4. Matte Black ALORA
+            {
+                id: 't1-black',
+                type: 'type1',
+                name: "گلدان نوع اول: «مشکی سوپر مات کربن» ALORA",
+                category: "type1",
+                isBeige: false,
+                colorName: "مشکی مات مخملی",
+                hex: "#1C1C1E",
+                cssClass: "matte-black",
+                badge: "صادراتی ALORA",
+                finish: "پودری مخملی آلمانی • ضخامت بالا",
+                desc: "گلدان فلزی نوع اول مشکی مات لوکس ALORA ضدخش و ضد اثر انگشت، بدون درز یا خط جوش بدنه، مجهز به کشوی ریلی آبریز و چرخ‌های مخفی هرزگرد.",
+                realPhoto: "https://uploadkon.ir/uploads/a6c514_26photo-2026-11-14-11-51-51.jpg",
+                customSizes: [
+                    { id: 1, label: "قطر ۴۰ × ارتفاع ۵۰ سانت", price: 8200000, image: "https://uploadkon.ir/uploads/a6c514_26photo-2026-11-14-11-51-51.jpg" },
+                    { id: 2, label: "قطر ۵۰ × ارتفاع ۵۰ سانت", price: 9700000, image: "https://uploadkon.ir/uploads/a6c514_26photo-2026-11-14-11-51-51.jpg" },
+                    { id: 3, label: "قطر ۵۰ × ارتفاع ۶۰ سانت", price: 11000000, image: "https://uploadkon.ir/uploads/a6c514_26photo-2026-11-14-11-51-51.jpg" }
+                ],
+                hasSeam: false,
+                isPlant: false
+            },
+            // 5. Pure White ALORA
+            {
+                id: 't1-white',
+                type: 'type1',
+                name: "گلدان نوع اول: «سفید صدفی یکدست» ALORA",
+                category: "type1",
+                isBeige: false,
+                colorName: "سفید صدفی",
+                hex: "#F8F9FA",
+                cssClass: "glossy-white",
+                badge: "صادراتی ALORA",
+                finish: "پوشش پودری آلمانی مقاوم به نور • بدون خط درز",
+                desc: "گلدان فلزی سفید صدفی یکدست ALORA، فوق‌العاده دلباز و مینیمال برای محیط‌های مدرن، بدون درز جوش ورق، دارای کشوی تخلیه آب و چرخ‌های مخفی.",
+                realPhoto: "https://uploadkon.ir/uploads/be6514_26photo-2026-11-14-11-55-16.jpg",
+                customSizes: [
+                    { id: 1, label: "قطر ۴۰ × ارتفاع ۵۰ سانت", price: 8200000, image: "https://uploadkon.ir/uploads/be6514_26photo-2026-11-14-11-55-16.jpg" },
+                    { id: 4, label: "قطر ۴۰ × ارتفاع ۷۰ سانت (قد بلند)", price: 10200000, image: "https://uploadkon.ir/uploads/d62414_26IMG-۲۰۲۶۱۰۰۸-۱۰۰۲۴۱.jpg" },
+                    { id: 3, label: "قطر ۵۰ × ارتفاع ۶۰ سانت", price: 11000000, image: "https://uploadkon.ir/uploads/579314_26IMG-20261016-092750.jpg" }
+                ],
+                hasSeam: false,
+                isPlant: false
+            },
+            // 6. Vibrant Orange ALORA
+            {
+                id: 't1-orange',
+                type: 'type1',
+                name: "گلدان نوع اول: «نارنجی پرتقالی براق» ALORA",
+                category: "type1",
+                isBeige: false,
+                colorName: "نارنجی پرتقالی",
+                hex: "#E85D04",
+                cssClass: "glossy-orange",
+                badge: "صادراتی ALORA",
+                finish: "پوشش پودری آلمانی • بدون خط درز",
+                desc: "گلدان فلزی نوع اول آلورا با رنگ پرانرژی نارنجی پرتقالی، فاقد هرگونه خط جوش نورد در بدنه، مجهز به کشوی زیرین تخلیه آب و چرخ‌های هرزگرد.",
+                realPhoto: "https://uploadkon.ir/uploads/0dfc14_26photo-2026-11-14-12-06-52.jpg",
+                customSizes: [
+                    { id: 1, label: "قطر ۴۰ × ارتفاع ۵۰ سانت", price: 8200000, image: "https://uploadkon.ir/uploads/0dfc14_26photo-2026-11-14-12-06-52.jpg" },
+                    { id: 2, label: "قطر ۵۰ × ارتفاع ۵۰ سانت", price: 9700000, image: "https://uploadkon.ir/uploads/0dfc14_26photo-2026-11-14-12-06-52.jpg" },
+                    { id: 3, label: "قطر ۵۰ × ارتفاع ۶۰ سانت", price: 11000000, image: "https://uploadkon.ir/uploads/f29914_26IMG-۲۰۲۶۱۰۱۸-۱۳۰۰۵۸.jpg" }
+                ],
+                hasSeam: false,
+                isPlant: false
+            },
+            // 7. Light Pistachio Green ALORA
+            {
+                id: 't1-pistachio',
+                type: 'type1',
+                name: "گلدان نوع اول: «سبز پسته‌ای پاستلی» ALORA",
+                category: "type1",
+                isBeige: false,
+                colorName: "سبز پسته‌ای روشن",
+                hex: "#8BB08E",
+                cssClass: "pastel-pistachio",
+                badge: "صادراتی ALORA",
+                finish: "پوشش پودری آلمانی • رنگ ملایم و آرامش‌بخش",
+                desc: "گلدان فلزی نوع اول آلورا با طیف سبز پسته‌ای ملایم و لطیف، هم‌خانواده با طبیعت گیاهان آپارتمانی، مجهز به کشوی ریلی آبریز و چرخ مخفی.",
+                realPhoto: "https://uploadkon.ir/uploads/6dda14_26photo-2026-11-14-12-12-53.jpg",
+                customSizes: [
+                    { id: 1, label: "قطر ۴۰ × ارتفاع ۵۰ سانت", price: 8200000, image: "https://uploadkon.ir/uploads/6dda14_26photo-2026-11-14-12-12-53.jpg" },
+                    { id: 2, label: "قطر ۵۰ × ارتفاع ۵۰ سانت", price: 9700000, image: "https://uploadkon.ir/uploads/6dda14_26photo-2026-11-14-12-12-53.jpg" },
+                    { id: 3, label: "قطر ۵۰ × ارتفاع ۶۰ سانت", price: 11000000, image: "https://uploadkon.ir/uploads/6dda14_26photo-2026-11-14-12-12-53.jpg" }
+                ],
+                hasSeam: false,
+                isPlant: false
+            },
+            // 8. Pastel Lilac ALORA
+            {
+                id: 't1-lilac',
+                type: 'type1',
+                name: "گلدان نوع اول: «یاسی پاستلی مدرن» ALORA",
+                category: "type1",
+                isBeige: false,
+                colorName: "یاسی پاستلی",
+                hex: "#C59FD9",
+                cssClass: "pastel-lilac",
+                badge: "صادراتی ALORA",
+                finish: "پوشش پودری آلمانی • فینیش خاص کلکسیونی",
+                desc: "گلدان فلزی نوع اول آلورا با رنگ یاسی لطیف و منحصربه‌فرد، کاملاً یکپارچه و بدون خط درز، مجهز به کشوی تخلیه ریلی و چرخ‌های بلبرینگی.",
+                realPhoto: "https://uploadkon.ir/uploads/823014_26photo-2026-11-14-12-13-56.jpg",
+                customSizes: [
+                    { id: 1, label: "قطر ۴۰ × ارتفاع ۵۰ سانت", price: 8200000, image: "https://uploadkon.ir/uploads/823014_26photo-2026-11-14-12-13-56.jpg" },
+                    { id: 2, label: "قطر ۵۰ × ارتفاع ۵۰ سانت", price: 9700000, image: "https://uploadkon.ir/uploads/823014_26photo-2026-11-14-12-13-56.jpg" },
+                    { id: 3, label: "قطر ۵۰ × ارتفاع ۶۰ سانت", price: 11000000, image: "https://uploadkon.ir/uploads/823014_26photo-2026-11-14-12-13-56.jpg" }
+                ],
+                hasSeam: false,
+                isPlant: false
+            },
+            // 9. Deep Navy Blue ALORA
+            {
+                id: 't1-navy',
+                type: 'type1',
+                name: "گلدان نوع اول: «سرمه‌ای اقیانوسی» ALORA",
+                category: "type1",
+                isBeige: false,
+                colorName: "سرمه‌ای (آبی تیره)",
+                hex: "#1B365D",
+                cssClass: "deep-navy",
+                badge: "صادراتی ALORA",
+                finish: "پوشش پودری آلمانی • مقاوم به خش و رطوبت",
+                desc: "گلدان فلزی نوع اول آلورا با رنگ سرمه‌ای عمیق و اشرافی، موجود در سایزهای ۵۰×۵۰ و قدبلند ۴۰×۷۰، مجهز به کشوی ریلی تخلیه و چرخ مخفی.",
+                realPhoto: "https://uploadkon.ir/uploads/2ae814_26photo-2026-11-14-12-19-08.jpg",
+                customSizes: [
+                    { id: 2, label: "قطر ۵۰ × ارتفاع ۵۰ سانت", price: 9700000, image: "https://uploadkon.ir/uploads/2ae814_26photo-2026-11-14-12-19-08.jpg" },
+                    { id: 4, label: "قطر ۴۰ × ارتفاع ۷۰ سانت (قد بلند)", price: 10200000, image: "https://uploadkon.ir/uploads/16fb14_26photo-2026-11-14-12-18-27.jpg" }
+                ],
+                hasSeam: false,
+                isPlant: false
+            },
+            // 10. Sunshine Yellow ALORA
+            {
+                id: 't1-yellow',
+                type: 'type1',
+                name: "گلدان نوع اول: «زرد آفتابی چشم‌نواز» ALORA",
+                category: "type1",
+                isBeige: false,
+                colorName: "زرد آفتابی",
+                hex: "#EAB308",
+                cssClass: "glossy-yellow",
+                badge: "صادراتی ALORA",
+                finish: "پوشش پودری آلمانی • جلای شفاف و ماندگار",
+                desc: "گلدان فلزی نوع اول آلورا با رنگ زرد شاد و چشم‌نواز، نقطه کانونی دکوراسیون‌های مدرن و روشن، مجهز به سینی کشویی تخلیه و چرخ‌های مخفی.",
+                realPhoto: "https://uploadkon.ir/uploads/a25014_26photo-2026-11-14-12-23-17.jpg",
+                customSizes: [
+                    { id: 2, label: "قطر ۵۰ × ارتفاع ۵۰ سانت", price: 9700000, image: "https://uploadkon.ir/uploads/a25014_26photo-2026-11-14-12-23-17.jpg" },
+                    { id: 3, label: "قطر ۵۰ × ارتفاع ۶۰ سانت", price: 11000000, image: "https://uploadkon.ir/uploads/1bda14_26photo-2026-11-14-12-24-48.jpg" }
+                ],
+                hasSeam: false,
+                isPlant: false
+            },
+            // 11. Olive Green ALORA
+            {
+                id: 't1-olive',
+                type: 'type1',
+                name: "گلدان نوع اول: «زیتونی اصیل» ALORA",
+                category: "type1",
+                isBeige: false,
+                colorName: "زیتونی",
+                hex: "#61683B",
+                cssClass: "olive-green",
+                badge: "صادراتی ALORA",
+                finish: "پوشش پودری آلمانی • هماهنگ با گیاهان پهن‌برگ",
+                desc: "گلدان فلزی نوع اول آلورا با رنگ زیتونی گرم و طبیعی مطابق تصویر، بدون خط درز بدنه، دارای کشوی تخلیه ریلی و چرخ‌های مخفی بلبرینگی.",
+                realPhoto: "https://uploadkon.ir/uploads/45fa14_26IMG-۲۰۲۶۱۰۲۱-۰۹۴۷۴۷.jpg",
+                customSizes: [
+                    { id: 3, label: "قطر ۵۰ × ارتفاع ۶۰ سانت", price: 11000000, image: "https://uploadkon.ir/uploads/45fa14_26IMG-۲۰۲۶۱۰۲۱-۰۹۴۷۴۷.jpg" }
+                ],
+                hasSeam: false,
+                isPlant: false
+            },
+            // 12. Charcoal / Anthracite Gray ALORA
+            {
+                id: 't1-charcoal',
+                type: 'type1',
+                name: "گلدان نوع اول: «طوسی ذغالی (نوک‌مدادی تیره)» ALORA",
+                category: "type1",
+                isBeige: false,
+                colorName: "طوسی ذغالی تیره",
+                hex: "#374151",
+                cssClass: "charcoal-gray",
+                badge: "صادراتی ALORA",
+                finish: "پوشش پودری آلمانی • طیف خنثی و صنعتی",
+                desc: "گلدان فلزی نوع اول آلورا با رنگ طوسی ذغالی تیره، تلفیقی مدرن بین مشکی و خاکستری، مجهز به سینی کشویی آبریز و ۴ چرخ هرزگرد مخفی.",
+                realPhoto: "https://uploadkon.ir/uploads/b4d614_26photo-2026-11-14-12-32-38.jpg",
+                customSizes: [
+                    { id: 3, label: "قطر ۵۰ × ارتفاع ۶۰ سانت", price: 11000000, image: "https://uploadkon.ir/uploads/b4d614_26photo-2026-11-14-12-32-38.jpg" }
+                ],
+                hasSeam: false,
+                isPlant: false
+            },
+            // 13. Brushed Steel Silver ALORA
+            {
+                id: 't1-steel',
+                type: 'type1',
+                name: "گلدان نوع اول: «نقره‌ای طرح استیل برس‌خورده» ALORA",
+                category: "metallic",
+                isBeige: false,
+                colorName: "نقره‌ای طرح استیل",
+                hex: "#CBD5E1",
+                cssClass: "steel-silver",
+                badge: "نسخه خاص استیل ALORA",
+                finish: "فینیش استیل نقره‌ای ممتاز • بدنه یکپارچه",
+                desc: "گلدان فلزی کلکسیونی ALORA با جلوه استیل نقره‌ای درخشان و مدرن، مقاوم در برابر خط و خش، مجهز به کشوی ریلی تخلیه آب و چرخ‌های مخفی روان.",
+                realPhoto: "https://uploadkon.ir/uploads/70fd14_26photo-2026-11-14-12-34-41.jpg",
+                customSizes: [
+                    { id: 3, label: "قطر ۵۰ × ارتفاع ۶۰ سانت", price: 14400000, image: "https://uploadkon.ir/uploads/70fd14_26photo-2026-11-14-12-34-41.jpg" }
+                ],
+                hasSeam: false,
+                isPlant: false
+            },
+            // 14. Purple ALORA
+            {
+                id: 't1-purple',
+                type: 'type1',
+                name: "گلدان نوع اول: «بنفش» ALORA",
+                category: "type1",
+                isBeige: false,
+                colorName: "بنفش",
+                hex: "#5A3D66",
+                cssClass: "royal-purple",
+                badge: "صادراتی ALORA",
+                finish: "پوشش پودری آلمانی • رنگ خاص دکوراتیو",
+                desc: "گلدان فلزی نوع اول آلورا با رنگ بنفش مطابق تصویر محصول، عاری از خط جوش بدنه، مجهز به کشوی خروج آب ریلی و چرخ‌های مخفی.",
+                realPhoto: "https://uploadkon.ir/uploads/ec2714_26IMG-۲۰۲۶۱۰۱۸-۱۳۰۰۵۵.jpg",
+                customSizes: [
+                    { id: 3, label: "قطر ۵۰ × ارتفاع ۶۰ سانت", price: 11000000, image: "https://uploadkon.ir/uploads/ec2714_26IMG-۲۰۲۶۱۰۱۸-۱۳۰۰۵۵.jpg" }
+                ],
+                hasSeam: false,
+                isPlant: false
+            },
+            // 15. Cream 60x60 Inquiry ALORA
+            {
+                id: 't1-nescafe',
+                type: 'type1',
+                name: "گلدان نوع اول: «کرم روشن (سایز غول‌پیکر ۶۰×۶۰)» ALORA",
+                category: "type1",
+                isBeige: false,
+                colorName: "کرم",
+                hex: "#E4D9C7",
+                cssClass: "nescafe-brown",
+                badge: "سایز سفارشی ۶۰×۶۰",
+                finish: "پوشش پودری آلمانی • ابعاد ویژه لابی و فضای وسیع",
+                desc: "گلدان فلزی غول‌پیکر قطر ۶۰ در ارتفاع ۶۰ سانتیمتر با رنگ کرم روشن مطابق تصویر، ایده‌آل برای درختچه‌های بزرگ، مجهز به کشوی تخلیه ریلی و چرخ‌های صنعتی مقاوم.",
+                realPhoto: "https://uploadkon.ir/uploads/cd8b14_26IMG-۲۰۲۶۱۰۱۸-۱۲۴۵۰۰.jpg",
+                customSizes: [
+                    { id: 5, label: "قطر ۶۰ × ارتفاع ۶۰ سانت (سفارشی)", price: 0, isInquiry: true, image: "https://uploadkon.ir/uploads/cd8b14_26IMG-۲۰۲۶۱۰۱۸-۱۲۴۵۰۰.jpg" }
+                ],
+                hasSeam: false,
+                isPlant: false
+            },
+
+            // TYPE 2: Only Khaki / Economic model
+            {
+                id: 't2-khaki',
+                type: 'type2',
+                name: "گلدان فلزی نوع دوم: «رنگ خاکی (بژ اقتصادی)»",
+                category: "type2",
+                isBeige: false,
+                colorName: "خاکی (بژ اقتصادی)",
+                hex: "#B0A292",
+                cssClass: "matte-khaki",
+                badge: "گلدان فلزی نوع دوم",
+                finish: "رنگ کوره‌ای ایرانی • خط نورد درز مشخص",
+                desc: "تنها مدل گلدان فلزی نوع دوم در کاتالوگ با رنگ خاکی کوره‌ای ایرانی. دارای لبه برگردان در بالا و نمایان بودن خط جوش نورد ورق در پشت بدنه، همراه با کشوی ریلی آبریز با قیمت کاملاً اقتصادی.",
+                realPhoto: "https://uploadkon.ir/uploads/211a14_26IMG-۲۰۲۶۱۰۱۸-۱۲۳۱۲۹.jpg",
+                customSizes: [
+                    { id: 10, label: "قطر ۴۰ × ارتفاع ۴۰ سانت", price: 5500000, image: "https://uploadkon.ir/uploads/211a14_26IMG-۲۰۲۶۱۰۱۸-۱۲۳۱۲۹.jpg" },
+                    { id: 11, label: "قطر ۴۰ × ارتفاع ۵۰ سانت", price: 6350000, image: "https://uploadkon.ir/uploads/211a14_26IMG-۲۰۲۶۱۰۱۸-۱۲۳۱۲۹.jpg" },
+                    { id: 12, label: "قطر ۵۰ × ارتفاع ۵۰ سانت", price: 8500000, image: "https://uploadkon.ir/uploads/211a14_26IMG-۲۰۲۶۱۰۱۸-۱۲۳۱۲۹.jpg" },
+                    { id: 13, label: "قطر ۵۰ × ارتفاع ۶۰ سانت", price: 10000000, image: "https://uploadkon.ir/uploads/211a14_26IMG-۲۰۲۶۱۰۱۸-۱۲۳۱۲۹.jpg" }
+                ],
+                hasSeam: true,
+                isPlant: false
+            },
+
+            // =========================================================================
+            // POLYMER WHEELED PLANTERS (Diameter 40 x Height 45 & 73 cm - 6 Colors)
+            // =========================================================================
+            {
+                id: 'poly-black',
+                type: 'polymer',
+                name: "گلدان پلیمری چرخدار: «رنگ مشکی»",
+                category: "polymer",
+                isBeige: false,
+                colorName: "مشکی",
+                hex: "#18181B",
+                cssClass: "matte-black",
+                badge: "گلدان پلیمری چرخدار",
+                finish: "قطر ۴۰ × ارتفاع ۴۵ و ۷۳ سانت • چرخدار سبک و مقاوم",
+                desc: "گلدان پلیمری مدرن و سبک با قطر ۴۰ در دو ارتفاع ۴۵ و ۷۳ سانتیمتر، مجهز به چرخ‌های روان زیرین برای جابجایی آسان. مقاوم در برابر ضربه، رطوبت و نور خورشید.",
+                realPhoto: "https://uploadkon.ir/uploads/5f0416_26سphoto-2026-10-10-07-57-31.jpg",
+                customSizes: [
+                    { id: 601, label: "قطر ۴۰ × ارتفاع ۴۵ سانت (چرخدار)", price: 4900000, image: "https://uploadkon.ir/uploads/5f0416_26سphoto-2026-10-10-07-57-31.jpg" },
+                    { id: 603, label: "قطر ۴۰ × ارتفاع ۷۳ سانت (قدبلند چرخدار)", price: 5600000, image: "https://uploadkon.ir/uploads/5f0416_26سphoto-2026-10-10-07-57-31.jpg" }
+                ],
+                hasSeam: false,
+                isPlant: false
+            },
+            {
+                id: 'poly-white',
+                type: 'polymer',
+                name: "گلدان پلیمری چرخدار: «رنگ سفید»",
+                category: "polymer",
+                isBeige: false,
+                colorName: "سفید",
+                hex: "#F8FAFC",
+                cssClass: "glossy-white",
+                badge: "گلدان پلیمری چرخدار",
+                finish: "قطر ۴۰ × ارتفاع ۴۵ و ۷۳ سانت • چرخدار سبک و مقاوم",
+                desc: "گلدان پلیمری مدرن رنگ سفید قطر ۴۰ در دو ارتفاع ۴۵ و ۷۳ سانتیمتر، مجهز به چرخ‌های زیرین روان برای جابجایی راحت هنگام نظافت و آبیاری.",
+                realPhoto: "https://uploadkon.ir/uploads/5f0416_26سphoto-2026-10-10-07-57-31.jpg",
+                customSizes: [
+                    { id: 601, label: "قطر ۴۰ × ارتفاع ۴۵ سانت (چرخدار)", price: 4900000, image: "https://uploadkon.ir/uploads/5f0416_26سphoto-2026-10-10-07-57-31.jpg" },
+                    { id: 603, label: "قطر ۴۰ × ارتفاع ۷۳ سانت (قدبلند چرخدار)", price: 5600000, image: "https://uploadkon.ir/uploads/5f0416_26سphoto-2026-10-10-07-57-31.jpg" }
+                ],
+                hasSeam: false,
+                isPlant: false
+            },
+            {
+                id: 'poly-gray',
+                type: 'polymer',
+                name: "گلدان پلیمری چرخدار: «رنگ طوسی»",
+                category: "polymer",
+                isBeige: false,
+                colorName: "طوسی",
+                hex: "#6B7280",
+                cssClass: "poly-gray",
+                badge: "گلدان پلیمری چرخدار",
+                finish: "قطر ۴۰ × ارتفاع ۴۵ و ۷۳ سانت • چرخدار سبک و مقاوم",
+                desc: "گلدان پلیمری رنگ طوسی خنثی و شیک با قطر ۴۰ در دو ارتفاع ۴۵ و ۷۳ سانتیمتر، دارای چرخ‌های مخفی روان و بدنه مستحکم.",
+                realPhoto: "https://uploadkon.ir/uploads/5f0416_26سphoto-2026-10-10-07-57-31.jpg",
+                customSizes: [
+                    { id: 601, label: "قطر ۴۰ × ارتفاع ۴۵ سانت (چرخدار)", price: 4900000, image: "https://uploadkon.ir/uploads/5f0416_26سphoto-2026-10-10-07-57-31.jpg" },
+                    { id: 603, label: "قطر ۴۰ × ارتفاع ۷۳ سانت (قدبلند چرخدار)", price: 5600000, image: "https://uploadkon.ir/uploads/5f0416_26سphoto-2026-10-10-07-57-31.jpg" }
+                ],
+                hasSeam: false,
+                isPlant: false
+            },
+            {
+                id: 'poly-darkgreen',
+                type: 'polymer',
+                name: "گلدان پلیمری چرخدار: «رنگ سبز تیره»",
+                category: "polymer",
+                isBeige: false,
+                colorName: "سبز تیره",
+                hex: "#193B1B",
+                cssClass: "poly-dark-green",
+                badge: "گلدان پلیمری چرخدار",
+                finish: "قطر ۴۰ × ارتفاع ۴۵ و ۷۳ سانت • چرخدار سبک و مقاوم",
+                desc: "گلدان پلیمری رنگ سبز تیره (جنگلی) با قطر ۴۰ در دو ارتفاع ۴۵ و ۷۳ سانتیمتر، مجهز به چرخ‌های زیرین روان.",
+                realPhoto: "https://uploadkon.ir/uploads/5f0416_26سphoto-2026-10-10-07-57-31.jpg",
+                customSizes: [
+                    { id: 601, label: "قطر ۴۰ × ارتفاع ۴۵ سانت (چرخدار)", price: 4900000, image: "https://uploadkon.ir/uploads/5f0416_26سphoto-2026-10-10-07-57-31.jpg" },
+                    { id: 603, label: "قطر ۴۰ × ارتفاع ۷۳ سانت (قدبلند چرخدار)", price: 5600000, image: "https://uploadkon.ir/uploads/5f0416_26سphoto-2026-10-10-07-57-31.jpg" }
+                ],
+                hasSeam: false,
+                isPlant: false
+            },
+            {
+                id: 'poly-nescafe',
+                type: 'polymer',
+                name: "گلدان پلیمری چرخدار: «رنگ نسکافه‌ای»",
+                category: "polymer",
+                isBeige: false,
+                colorName: "نسکافه‌ای",
+                hex: "#937256",
+                cssClass: "poly-nescafe",
+                badge: "گلدان پلیمری چرخدار",
+                finish: "قطر ۴۰ × ارتفاع ۴۵ و ۷۳ سانت • چرخدار سبک و مقاوم",
+                desc: "گلدان پلیمری رنگ نسکافه‌ای گرم با قطر ۴۰ در دو ارتفاع ۴۵ و ۷۳ سانتیمتر، مجهز به چرخ‌های زیرین و بدنه سبک و نشکن.",
+                realPhoto: "https://uploadkon.ir/uploads/ee8116_26photo-2026-10-10-07-59-20-jpgس.jpg",
+                customSizes: [
+                    { id: 601, label: "قطر ۴۰ × ارتفاع ۴۵ سانت (چرخدار)", price: 4900000, image: "https://uploadkon.ir/uploads/ee8116_26photo-2026-10-10-07-59-20-jpgس.jpg" },
+                    { id: 603, label: "قطر ۴۰ × ارتفاع ۷۳ سانت (قدبلند چرخدار)", price: 5600000, image: "https://uploadkon.ir/uploads/ee8116_26photo-2026-10-10-07-59-20-jpgس.jpg" }
+                ],
+                hasSeam: false,
+                isPlant: false
+            },
+            {
+                id: 'poly-gold',
+                type: 'polymer',
+                name: "گلدان پلیمری چرخدار: «رنگ طلایی متالیک»",
+                category: "polymer",
+                isBeige: false,
+                colorName: "طلایی ویژه",
+                hex: "#D4AF37",
+                cssClass: "poly-gold",
+                badge: "نسخه خاص طلایی",
+                finish: "قطر ۴۰ × ارتفاع ۴۵ و ۷۳ سانت • رنگ ویژه متالیک چرخدار",
+                desc: "گلدان پلیمری لوکس رنگ طلایی متالیک با قطر ۴۰ در دو ارتفاع ۴۵ و ۷۳ سانتیمتر، مجهز به چرخ‌های زیرین روان و پوشش درخشان ویژه.",
+                realPhoto: "https://uploadkon.ir/uploads/5f0416_26سphoto-2026-10-10-07-57-31.jpg",
+                customSizes: [
+                    { id: 602, label: "قطر ۴۰ × ارتفاع ۴۵ سانت (رنگ طلایی چرخدار)", price: 5900000, image: "https://uploadkon.ir/uploads/5f0416_26سphoto-2026-10-10-07-57-31.jpg" },
+                    { id: 604, label: "قطر ۴۰ × ارتفاع ۷۳ سانت (رنگ طلایی قدبلند چرخدار)", price: 6600000, image: "https://uploadkon.ir/uploads/5f0416_26سphoto-2026-10-10-07-57-31.jpg" }
+                ],
+                hasSeam: false,
+                isPlant: false
+            },
+
+            // =========================================================================
+            // PLANT CARE & GERMAN LEBOSOL GROWTH PACK
+            // =========================================================================
+            {
+                id: 'care-amino',
+                type: 'care',
+                name: "کود آمینو اسید «آمینو سل» برند لبسول آلمان (ضدشوک واجب)",
+                category: "care",
+                isBeige: false,
+                colorName: "تغذیه ضدشوک لبسول آلمان",
+                hex: "#BE123C",
+                cssClass: "",
+                badge: "⭐ واجب برای رفع شوک جابجایی",
+                finish: "محصول اورجینال Lebosol آلمان • پک رشد گیاه",
+                desc: "کود آمینو اسید تخصصی آمینو سل (Aminocel) ساخت کمپانی لبسول آلمان. این محصول برای برطرف کردن شوک جابجایی، تعویض گلدان، سازگاری سریع با محیط جدید و جلوگیری از زردی یا ریزش برگ‌ها پس از خرید ضروری است.",
+                defaultImage: "https://res.cloudinary.com/v1vmbcpf/image/upload/v1794987039/photo_2026-11-13_18-24-54.jpg",
+                realPhoto: "https://res.cloudinary.com/v1vmbcpf/image/upload/v1794987039/photo_2026-11-13_18-24-54.jpg",
+                customSizes: [
+                    { 
+                        id: 701, 
+                        label: "بسته‌بندی اصلی لبسول آلمان (ضدشوک جابجایی)", 
+                        price: 770000, 
+                        image: "https://res.cloudinary.com/v1vmbcpf/image/upload/v1794987039/photo_2026-11-13_18-24-54.jpg",
+                        galleryImages: [
+                            "https://res.cloudinary.com/v1vmbcpf/image/upload/v1794987039/photo_2026-11-13_18-24-54.jpg",
+                            "https://res.cloudinary.com/v1vmbcpf/image/upload/v1794987043/photo_2026-11-13_18-24-56.jpg"
+                        ]
+                    }
+                ],
+                hasSeam: false,
+                isPlant: true,
+                isCare: true
+            },
+            {
+                id: 'care-root',
+                type: 'care',
+                name: "کود ریشه‌زا فسفر بالا ۱۰-۵۲-۱۰ برند لبسول آلمان",
+                category: "care",
+                isBeige: false,
+                colorName: "ریشه‌زایی قوی ۱۰-۵۲-۱۰",
+                hex: "#0369A1",
+                cssClass: "",
+                badge: "🧪 پک رشد (لبسول آلمان)",
+                finish: "فرمولاسیون ۱۰-۵۲-۱۰ آلمانی • تقویت ریشه",
+                desc: "کود تخصصی ریشه‌زا با فسفر بالا (۱۰-۵۲-۱۰) از برند معتبر لبسول آلمان. موجب گسترش سریع تارهای کشنده ریشه، استقرار کامل گیاه در گلدان جدید و افزایش توان جذب مواد مغذی می‌شود.",
+                defaultImage: "https://res.cloudinary.com/v1vmbcpf/image/upload/v1794987049/photo_2026-11-13_18-24-44.jpg",
+                realPhoto: "https://res.cloudinary.com/v1vmbcpf/image/upload/v1794987049/photo_2026-11-13_18-24-44.jpg",
+                customSizes: [
+                    { 
+                        id: 702, 
+                        label: "بسته‌بندی اصلی ۱۰-۵۲-۱۰ لبسول آلمان", 
+                        price: 690000, 
+                        image: "https://res.cloudinary.com/v1vmbcpf/image/upload/v1794987049/photo_2026-11-13_18-24-44.jpg",
+                        galleryImages: [
+                            "https://res.cloudinary.com/v1vmbcpf/image/upload/v1794987049/photo_2026-11-13_18-24-44.jpg",
+                            "https://res.cloudinary.com/v1vmbcpf/image/upload/v1794987078/photo_2026-11-13_18-24-45.jpg"
+                        ]
+                    }
+                ],
+                hasSeam: false,
+                isPlant: true,
+                isCare: true
+            },
+            {
+                id: 'care-potash',
+                type: 'care',
+                name: "کود پتاس بالا ۱۲-۱۲-۳۶ (دوازده دوازده سی‌وشش) لبسول آلمان",
+                category: "care",
+                isBeige: false,
+                colorName: "استحکام و شادابی ۱۲-۱۲-۳۶",
+                hex: "#0F766E",
+                cssClass: "",
+                badge: "🧪 پک رشد (لبسول آلمان)",
+                finish: "فرمولاسیون ۱۲-۱۲-۳۶ آلمانی • استحکام ساقه و برگ",
+                desc: "کود پتاس بالا ۱۲-۱۲-۳۶ (دوازده دوازده سی‌وشش) برند لبسول آلمان؛ باعث ضخیم شدن بافت برگ‌ها، افزایش مقاومت گیاه در برابر خشکی و تنش‌های محیطی، و جلوگیری از سوختگی نوک برگ‌ها می‌گردد.",
+                defaultImage: "https://res.cloudinary.com/v1vmbcpf/image/upload/v1794987098/04AawpgHp7ekn7oL4iGcks3MDecC4gfyb8woWDoqzckgaJNAoi.jpg",
+                realPhoto: "https://res.cloudinary.com/v1vmbcpf/image/upload/v1794987098/04AawpgHp7ekn7oL4iGcks3MDecC4gfyb8woWDoqzckgaJNAoi.jpg",
+                customSizes: [
+                    { 
+                        id: 703, 
+                        label: "بسته‌بندی اصلی ۱۲-۱۲-۳۶ لبسول آلمان", 
+                        price: 670000, 
+                        image: "https://res.cloudinary.com/v1vmbcpf/image/upload/v1794987098/04AawpgHp7ekn7oL4iGcks3MDecC4gfyb8woWDoqzckgaJNAoi.jpg"
+                    }
+                ],
+                hasSeam: false,
+                isPlant: true,
+                isCare: true
+            },
+            {
+                id: 'care-humic',
+                type: 'care',
+                name: "هیومیک اسید تخصصی (مکمل افزایش جذب کود و اصلاح خاک)",
+                category: "care",
+                isBeige: false,
+                colorName: "مکمل جذب و اصلاح ریشه",
+                hex: "#44403C",
+                cssClass: "",
+                badge: "🌱 مکمل جذب کودها",
+                finish: "افزایش راندمان جذب کود • مناسب ترکیب با انواع کود",
+                desc: "هیومیک اسید در اصل خودِ کود نیست، بلکه یک مکمل حیاتی برای جذب بهتر کودها توسط ریشه گیاه است. بهتر است همراه با کودهای دیگر ترکیب شود تا تأثیر و جذب عناصر غذایی را چند برابر کند و خاک گلدان را سبک و حاصلخیز نگه دارد.",
+                defaultImage: "https://res.cloudinary.com/v1vmbcpf/image/upload/v1794985280/zdBEazK0AqO8rRu5400zTmaN8l2RCznQbWZmSLRRqARWhpUTOb.jpg_512X512X70.webp",
+                realPhoto: "https://res.cloudinary.com/v1vmbcpf/image/upload/v1794985280/zdBEazK0AqO8rRu5400zTmaN8l2RCznQbWZmSLRRqARWhpUTOb.jpg_512X512X70.webp",
+                customSizes: [
+                    { 
+                        id: 706, 
+                        label: "بسته‌بندی هیومیک اسید (مکمل جذب کود)", 
+                        price: 530000, 
+                        image: "https://res.cloudinary.com/v1vmbcpf/image/upload/v1794985280/zdBEazK0AqO8rRu5400zTmaN8l2RCznQbWZmSLRRqARWhpUTOb.jpg_512X512X70.webp"
+                    }
+                ],
+                hasSeam: false,
+                isPlant: true,
+                isCare: true
+            },
+            {
+                id: 'care-seaweed',
+                type: 'care',
+                name: "کود جلبک دریایی (رشد و پهن‌تر شدن برگ‌ها)",
+                category: "care",
+                isBeige: false,
+                colorName: "عصاره جلبک دریایی خالص",
+                hex: "#15803D",
+                cssClass: "",
+                badge: "🧪 پک رشد (تقویت برگ)",
+                finish: "محرک رشد رویشی • افزایش سطح و سبزینگی برگ",
+                desc: "کود جلبک دریایی غنی از هورمون‌های رشد طبیعی و ریزمغذی‌ها؛ باعث پهن‌تر شدن برگ‌های گیاهانی مانند نیکولای و پله‌موآ، افزایش کلروفیل و درخشندگی سبز برگ‌ها می‌شود.",
+                defaultImage: "https://res.cloudinary.com/v1vmbcpf/image/upload/v1794987104/photo_2026-11-13_18-24-52.jpg",
+                realPhoto: "https://res.cloudinary.com/v1vmbcpf/image/upload/v1794987104/photo_2026-11-13_18-24-52.jpg",
+                customSizes: [
+                    { 
+                        id: 704, 
+                        label: "بسته‌بندی اصلی کود جلبک دریایی", 
+                        price: 450000, 
+                        image: "https://res.cloudinary.com/v1vmbcpf/image/upload/v1794987104/photo_2026-11-13_18-24-52.jpg",
+                        galleryImages: [
+                            "https://res.cloudinary.com/v1vmbcpf/image/upload/v1794987104/photo_2026-11-13_18-24-52.jpg",
+                            "https://res.cloudinary.com/v1vmbcpf/image/upload/v1794987109/photo_2026-11-13_18-24-48.jpg"
+                        ]
+                    }
+                ],
+                hasSeam: false,
+                isPlant: true,
+                isCare: true
+            },
+            {
+                id: 'care-fullpack',
+                type: 'care',
+                name: "پک کامل رشد و تغذیه ۵ عددی (آمینو + ریشه‌زا + پتاس + جلبک + هیومیک)",
+                category: "care",
+                isBeige: false,
+                colorName: "مجموعه کامل ۵ عددی لبسول، جلبک و هیومیک",
+                hex: "#0284C7",
+                cssClass: "",
+                badge: "🎁 پک کامل رشد گیاه",
+                finish: "شامل هر ۵ محصول (آمینو اسید + ۱۰-۵۲-۱۰ + ۱۲-۱۲-۳۶ + جلبک + هیومیک اسید)",
+                desc: "مجموعه کامل مراقبت و تغذیه حرفه‌ای شامل هر ۵ مکمل: آمینو سل ضدشوک لبسول (۷۷۰ ت)، ریشه‌زا فسفر بالا لبسول (۶۹۰ ت)، پتاس بالا ۱۲-۱۲-۳۶ لبسول (۶۷۰ ت)، هیومیک اسید افزایش‌دهنده جذب کود (۵۳۰ ت) و کود جلبک دریایی پهن‌کننده برگ (۴۵۰ ت).",
+                defaultImage: "https://res.cloudinary.com/v1vmbcpf/image/upload/v1794987039/photo_2026-11-13_18-24-54.jpg",
+                realPhoto: "https://res.cloudinary.com/v1vmbcpf/image/upload/v1794987039/photo_2026-11-13_18-24-54.jpg",
+                customSizes: [
+                    { 
+                        id: 705, 
+                        label: "پک کامل ۵ عددی رشد، جذب و ضدشوک", 
+                        price: 3110000, 
+                        image: "https://res.cloudinary.com/v1vmbcpf/image/upload/v1794987039/photo_2026-11-13_18-24-54.jpg",
+                        galleryImages: [
+                            "https://res.cloudinary.com/v1vmbcpf/image/upload/v1794987039/photo_2026-11-13_18-24-54.jpg",
+                            "https://res.cloudinary.com/v1vmbcpf/image/upload/v1794987049/photo_2026-11-13_18-24-44.jpg",
+                            "https://res.cloudinary.com/v1vmbcpf/image/upload/v1794987098/04AawpgHp7ekn7oL4iGcks3MDecC4gfyb8woWDoqzckgaJNAoi.jpg",
+                            "https://res.cloudinary.com/v1vmbcpf/image/upload/v1794985280/zdBEazK0AqO8rRu5400zTmaN8l2RCznQbWZmSLRRqARWhpUTOb.jpg_512X512X70.webp",
+                            "https://res.cloudinary.com/v1vmbcpf/image/upload/v1794987104/photo_2026-11-13_18-24-52.jpg"
+                        ]
+                    }
+                ],
+                hasSeam: false,
+                isPlant: true,
+                isCare: true
+            }
+        ];
+
+        function getSizesForProduct(product) {
+            if (product.customSizes && product.customSizes.length > 0) {
+                return product.customSizes.map(cs => ({
+                    ...cs,
+                    basePrice: cs.price,
+                    beigePrice: cs.price
+                }));
+            }
+            if (product.id === 'plant-nicolai') return NICOLAI_SIZES;
+            if (product.id === 'plant-arika') return ARIKA_SIZES;
+            if (product.id === 'plant-pelemoa') return PELEMOA_SIZES;
+            return product.type === 'type2' ? TYPE2_SIZES : TYPE1_SIZES;
+        }
+
+        function calculatePrice(product, sizeId) {
+            const sizesList = getSizesForProduct(product);
+            const sizeObj = sizesList.find(s => s.id === sizeId) || sizesList[0];
+            if (sizeObj.isInquiry) return 0;
+            if (typeof sizeObj.price === 'number') return sizeObj.price;
+            if (product.type === 'plants') {
+                return sizeObj.basePrice;
+            }
+            if (product.type === 'type1') {
+                return product.isBeige ? sizeObj.beigePrice : sizeObj.basePrice;
+            }
+            return sizeObj.basePrice;
+        }
+
+        function setFilter(cat) {
+            activeFilter = cat;
+            document.querySelectorAll('.filter-tab').forEach(tab => {
+                const tabCat = tab.getAttribute('data-cat');
+                if (tabCat === 'all') {
+                    if (cat === 'all') {
+                        tab.classList.remove('bg-white', 'text-neutral-900', 'border', 'border-brand-200');
+                        tab.classList.add('bg-neutral-900', 'text-white', 'shadow-sm');
+                    } else {
+                        tab.classList.remove('bg-neutral-900', 'text-white', 'shadow-sm');
+                        tab.classList.add('bg-white', 'text-neutral-900', 'border', 'border-brand-200');
+                    }
+                } else {
+                    if (tabCat === cat) {
+                        tab.classList.remove('bg-white');
+                        tab.classList.add('bg-neutral-900', 'text-white', 'border-neutral-900', 'shadow-md');
+                        tab.querySelectorAll('span.block').forEach(el => el.classList.replace('text-neutral-900', 'text-white'));
+                        tab.querySelectorAll('span.text-neutral-500').forEach(el => el.classList.replace('text-neutral-500', 'text-neutral-300'));
+                    } else {
+                        tab.classList.remove('bg-neutral-900', 'text-white', 'border-neutral-900', 'shadow-md');
+                        tab.classList.add('bg-white');
+                        tab.querySelectorAll('span.block').forEach(el => el.classList.replace('text-white', 'text-neutral-900'));
+                        tab.querySelectorAll('span.text-neutral-300').forEach(el => el.classList.replace('text-neutral-300', 'text-neutral-500'));
+                    }
+                }
+            });
+            renderCatalog();
+        }
+
+        function handleCatalogSearch() {
+            searchQuery = document.getElementById('catalog-search').value.trim().toLowerCase();
+            renderCatalog();
+        }
+
+        function renderCatalog() {
+            const grid = document.getElementById('planter-grid');
+            grid.innerHTML = '';
+
+            const filtered = products.filter(p => {
+                const matchesCategory = (
+                    activeFilter === 'all' ||
+                    (activeFilter === 'combos' && p.type === 'combos') ||
+                    (activeFilter === 'polymer' && p.type === 'polymer') ||
+                    (activeFilter === 'care' && p.type === 'care') ||
+                    (activeFilter === 'metal' && (p.type === 'type1' || p.type === 'type2')) ||
+                    (activeFilter === 'type1' && p.type === 'type1') ||
+                    (activeFilter === 'type2' && p.type === 'type2') ||
+                    (activeFilter === 'plants' && p.type === 'plants') ||
+                    (activeFilter === 'metallic' && p.category === 'metallic')
+                );
+
+                const matchesSearch = !searchQuery || (
+                    p.name.toLowerCase().includes(searchQuery) ||
+                    p.colorName.toLowerCase().includes(searchQuery) ||
+                    p.desc.toLowerCase().includes(searchQuery) ||
+                    p.badge.toLowerCase().includes(searchQuery)
+                );
+
+                return matchesCategory && matchesSearch;
+            });
+
+            if (filtered.length === 0) {
+                grid.innerHTML = `
+                    <div class="col-span-full py-12 text-center text-neutral-400">
+                        <i class="ph ph-magnifying-glass text-3xl mb-2"></i>
+                        <p class="text-xs">محصولی مطابق با فیلتر یا جستجوی شما یافت نشد.</p>
+                    </div>
+                `;
+                return;
+            }
+
+            filtered.forEach(prod => {
+                const sizesList = getSizesForProduct(prod);
+                const baseSize = sizesList[0];
+                const basePrice = calculatePrice(prod, baseSize.id);
+                const inCart = cart.some(c => c.prodId === prod.id);
+
+                const card = document.createElement('div');
+                card.className = "bg-white rounded-3xl border border-brand-200 overflow-hidden shadow-sm hover:shadow-md transition flex flex-col justify-between group";
+
+                // Clean color swatch on preview card without text over color surface
+                const previewImgSrc = resolveImageUrl(prod.defaultImage);
+                const previewContent = prod.isPlant ? `
+                    <div class="w-24 h-24 sm:w-36 sm:h-36 rounded-2xl overflow-hidden shadow-md bg-white border border-brand-200 flex items-center justify-center p-1 group-hover:scale-105 transition-transform duration-300">
+                        <img src="${previewImgSrc}" onerror="this.onerror=null;this.src='https://placehold.co/400x400/2A4836/FFFFFF?text=${encodeURIComponent(prod.name)}'" alt="${prod.name}" class="w-full h-full object-contain">
+                    </div>
+                ` : `
+                    <div class="w-24 h-24 sm:w-36 sm:h-36 rounded-2xl sm:rounded-3xl overflow-hidden shadow-lg border-2 border-white/80 flex items-center justify-center relative group-hover:scale-105 transition-transform duration-300 ${prod.cssClass}" style="${!prod.cssClass ? 'background-color: ' + prod.hex + ';' : ''}">
+                    </div>
+                `;
+
+                card.innerHTML = `
+                    <div class="relative p-3.5 sm:p-5 bg-gradient-to-b from-brand-100 to-brand-50 flex flex-col items-center justify-center cursor-pointer overflow-hidden" onclick="openProductModal('${prod.id}')">
+                        <span class="absolute top-2.5 right-2.5 text-[8px] sm:text-[9px] font-black ${
+                            prod.isPlant ? 'bg-emerald-800 text-white' : (prod.type === 'type1' ? 'bg-neutral-900 text-white' : 'bg-amber-100 text-amber-900 border border-amber-300')
+                        } px-2 py-0.5 rounded-full shadow-sm max-w-[85%] truncate">
+                            ${prod.badge}
+                        </span>
+
+                        <div class="mt-4 sm:mt-2">
+                            ${previewContent}
+                        </div>
+
+                        <div class="mt-2.5 sm:mt-3 flex items-center gap-1.5 text-[11px] sm:text-xs text-neutral-800 font-bold">
+                            <span class="w-2.5 h-2.5 sm:w-3 sm:h-3 rounded-full border border-black/10 shrink-0 shadow-sm" style="background-color: ${prod.hex};"></span>
+                            <span class="truncate max-w-[120px] sm:max-w-none">${prod.colorName}</span>
+                        </div>
+                    </div>
+
+                    <div class="p-3 sm:p-4 flex-1 flex flex-col justify-between">
+                        <div>
+                            <div class="flex items-center justify-between gap-1">
+                                <span class="text-[9px] sm:text-[10px] text-gold-600 font-extrabold truncate">
+                                    ${prod.isPlant ? 'سایز پایه' : `پایه (${baseSize.label.split('×')[0]})`}
+                                </span>
+                                ${prod.isBeige ? '<span class="text-[8px] sm:text-[9px] bg-amber-100 text-amber-800 font-bold px-1.5 py-0.5 rounded shrink-0">+۵۰۰ ت متالیک</span>' : ''}
+                            </div>
+                            <h3 class="text-[11px] sm:text-sm font-bold text-neutral-900 mt-1 cursor-pointer hover:text-gold-600 transition line-clamp-2 leading-snug" onclick="openProductModal('${prod.id}')">
+                                ${prod.name}
+                            </h3>
+                            <p class="text-[9px] sm:text-[10px] text-neutral-400 mt-1 line-clamp-1">${prod.finish}</p>
+                        </div>
+
+                        <div class="mt-3 sm:mt-4 pt-2.5 sm:pt-3 border-t border-brand-100 flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+                            <div>
+                                <span class="text-[8px] sm:text-[9px] text-neutral-400 block">شروع قیمت:</span>
+                                <span class="text-[11px] sm:text-sm font-black text-neutral-900">${baseSize.isInquiry ? 'استعلام تلفنی' : formatPriceToman(basePrice)}</span>
+                            </div>
+
+                            <button onclick="quickSelect('${prod.id}', event)" class="w-full sm:w-auto justify-center px-2.5 py-2 sm:px-3 sm:py-1.5 rounded-xl text-xs font-bold flex items-center gap-1 active:scale-95 transition ${
+                                inCart ? 'bg-neutral-900 text-white' : 'bg-brand-100 text-neutral-800 hover:bg-brand-200'
+                            }">
+                                <i class="ph ${inCart ? 'ph-check-bold' : 'ph-sliders-horizontal'}"></i>
+                                <span class="text-[10px] sm:text-[11px]">${inCart ? 'انتخاب شده' : 'انتخاب سایز'}</span>
+                            </button>
+                        </div>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        function openProductModal(prodId) {
+            const product = products.find(p => p.id === prodId);
+            if (!product) return;
+
+            currentModalProduct = product;
+            const availableSizes = getSizesForProduct(product);
+            selectedSizeId = (product.id === 'plant-pelemoa') ? 403 : (product.id === 'plant-arika' ? 304 : availableSizes[0].id);
+            const initialSizeObj = availableSizes.find(s => s.id === selectedSizeId) || availableSizes[0];
+
+            const modal = document.getElementById('product-modal');
+            const imgEl = document.getElementById('modal-primary-image');
+            const badgeEl = document.getElementById('modal-prod-badge');
+            const finishEl = document.getElementById('modal-finish-text');
+            const titleEl = document.getElementById('modal-prod-title');
+            const descEl = document.getElementById('modal-prod-desc');
+            const specsEl = document.getElementById('modal-tech-specs');
+            const suggestionsEl = document.getElementById('modal-plant-suggestions');
+            const thumbsContainer = document.getElementById('modal-gallery-thumbs');
+            const colorSection = document.getElementById('modal-color-section');
+
+            // Always open with the first size's real photo
+            const rawInitialImg = (initialSizeObj && initialSizeObj.image) ? initialSizeObj.image : (product.realPhoto || product.defaultImage);
+            const initialImg = resolveImageUrl(rawInitialImg);
+            if (imgEl) {
+                imgEl.src = initialImg;
+                imgEl.onerror = function() {
+                    this.onerror = null;
+                    this.src = product.isPlant 
+                        ? 'https://placehold.co/600x600/284433/FFFFFF?text=' + encodeURIComponent(product.name)
+                        : 'https://placehold.co/600x600/444444/FFFFFF?text=ALORA+Planter';
+                };
+            }
+            if (badgeEl) badgeEl.innerText = product.badge;
+            if (finishEl) finishEl.innerText = product.finish;
+            if (titleEl) titleEl.innerText = product.name;
+            if (descEl) descEl.innerText = product.desc;
+
+            if (colorSection) {
+                colorSection.style.display = product.isPlant ? 'none' : 'block';
+            }
+
+            if (specsEl) {
+                if (product.isPlant) {
+                    specsEl.innerHTML = `
+                        <div class="p-2 rounded-xl bg-white border border-brand-200">
+                            <span class="text-neutral-400 block text-[9px]">شرایط آبیاری:</span>
+                            <span class="font-bold text-neutral-800">با خشکی سطح خاک</span>
+                        </div>
+                        <div class="p-2 rounded-xl bg-white border border-brand-200">
+                            <span class="text-neutral-400 block text-[9px]">نور مورد نیاز:</span>
+                            <span class="font-bold text-neutral-800">غیرمستقیم پرنور و فیلترشده</span>
+                        </div>
+                    `;
+                } else if (product.type === 'type1') {
+                    specsEl.innerHTML = `
+                        <div class="p-2 rounded-xl bg-white border border-brand-200">
+                            <span class="text-neutral-400 block text-[9px]">نوع رنگ:</span>
+                            <span class="font-bold text-neutral-800">پودری خارجی ضدخش کوره</span>
+                        </div>
+                        <div class="p-2 rounded-xl bg-white border border-brand-200">
+                            <span class="text-neutral-400 block text-[9px]">وضعیت درز ورق:</span>
+                            <span class="font-bold text-emerald-700">کاملاً یکپارچه و بدون درز</span>
+                        </div>
+                    `;
+                } else {
+                    specsEl.innerHTML = `
+                        <div class="p-2 rounded-xl bg-white border border-brand-200">
+                            <span class="text-neutral-400 block text-[9px]">نوع رنگ:</span>
+                            <span class="font-bold text-neutral-800">الکترواستاتیک کوره‌ای ایرانی</span>
+                        </div>
+                        <div class="p-2 rounded-xl bg-white border border-brand-200">
+                            <span class="text-neutral-400 block text-[9px]">وضعیت درز بدنه:</span>
+                            <span class="font-bold text-amber-700">خط نورد ورق در بدنه مشخص</span>
+                        </div>
+                    `;
+                }
+            }
+
+            if (suggestionsEl) {
+                if (product.isPlant) {
+                    suggestionsEl.innerHTML = `
+                        <span class="text-neutral-500">گلدان متناسب:</span>
+                        <span class="bg-emerald-100 text-emerald-800 px-2 py-0.5 rounded-md font-bold">گلدان فلزی ۴۰×۵۰ یا ۵۰×۶۰</span>
+                    `;
+                } else {
+                    suggestionsEl.innerHTML = `
+                        <span class="text-neutral-500">پیشنهاد گیاه:</span>
+                        <span class="bg-white border border-brand-200 px-2 py-0.5 rounded-md text-neutral-800 font-bold">استرلیتزیا نیکولای یا اریکا</span>
+                    `;
+                }
+            }
+
+            updateModalGalleryThumbs(initialSizeObj);
+
+            const drawerBox = document.getElementById('modal-drawer-feature-box');
+            if (drawerBox) {
+                drawerBox.style.display = product.isPlant ? 'none' : 'flex';
+            }
+
+            renderModalColorSwatches();
+            renderModalSizeButtons();
+            renderSmartPlanterMatcher();
+            updateModalPriceAndCartButton();
+
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function updateModalGalleryThumbs(sizeObj) {
+            const thumbsContainer = document.getElementById('modal-gallery-thumbs');
+            const imgEl = document.getElementById('modal-primary-image');
+            if (!thumbsContainer || !currentModalProduct) return;
+
+            thumbsContainer.innerHTML = '';
+
+            if (currentModalProduct.isPlant) {
+                const imgs = (sizeObj && sizeObj.galleryImages) ? sizeObj.galleryImages : [sizeObj ? sizeObj.image : currentModalProduct.realPhoto];
+                imgs.forEach((rawGImg, idx) => {
+                    if (!rawGImg) return;
+                    const gImg = resolveImageUrl(rawGImg);
+                    const thumb = document.createElement('button');
+                    thumb.className = "w-11 h-11 rounded-xl overflow-hidden border border-brand-200 hover:border-neutral-900 shadow-sm transition active:scale-90 p-0.5 bg-white shrink-0";
+                    thumb.innerHTML = `<img src="${gImg}" onerror="this.onerror=null;this.src='https://placehold.co/100x100/284433/FFFFFF?text=${idx+1}'" class="w-full h-full object-contain">`;
+                    thumb.onclick = () => { if (imgEl) imgEl.src = gImg; };
+                    thumbsContainer.appendChild(thumb);
+                });
+            } else {
+                // Collect size-specific images + all size photos + drainage drawer photo
+                const sizePhotos = [];
+                if (sizeObj && sizeObj.galleryImages) {
+                    sizeObj.galleryImages.forEach(u => { if (!sizePhotos.includes(u)) sizePhotos.push(u); });
+                } else if (sizeObj && sizeObj.image) {
+                    sizePhotos.push(sizeObj.image);
+                }
+                const allSizes = getSizesForProduct(currentModalProduct);
+                allSizes.forEach(s => {
+                    if (s.image && !sizePhotos.includes(s.image)) sizePhotos.push(s.image);
+                    if (s.galleryImages) {
+                        s.galleryImages.forEach(u => { if (!sizePhotos.includes(u)) sizePhotos.push(u); });
+                    }
+                });
+
+                sizePhotos.forEach((photoUrl, idx) => {
+                    const thumb = document.createElement('button');
+                    thumb.className = `w-11 h-11 rounded-xl overflow-hidden border ${idx === 0 ? 'border-2 border-neutral-900' : 'border-brand-200'} hover:border-neutral-900 shadow-sm p-0.5 bg-white shrink-0 transition active:scale-90`;
+                    thumb.innerHTML = `<img src="${photoUrl}" class="w-full h-full object-contain" title="نمای محصول">`;
+                    thumb.onclick = () => { if (imgEl) imgEl.src = photoUrl; };
+                    thumbsContainer.appendChild(thumb);
+                });
+
+                // Always add drainage drawer photo at the end
+                const thumbDrawer = document.createElement('button');
+                thumbDrawer.className = "w-11 h-11 rounded-xl overflow-hidden border border-brand-200 hover:border-neutral-900 shadow-sm p-0.5 bg-white shrink-0 transition active:scale-90";
+                thumbDrawer.innerHTML = `<img src="https://i.ibb.co/q3pkmzdg/image.png" class="w-full h-full object-contain" title="کشوی تخلیه آب">`;
+                thumbDrawer.onclick = () => { if (imgEl) imgEl.src = 'https://i.ibb.co/q3pkmzdg/image.png'; };
+                thumbsContainer.appendChild(thumbDrawer);
+            }
+        }
+
+        function renderSmartPlanterMatcher() {
+            const box = document.getElementById('modal-smart-planter-box');
+            const labelEl = document.getElementById('smart-matched-planter-label');
+            const colorsContainer = document.getElementById('smart-planter-colors');
+            const heightsContainer = document.getElementById('smart-planter-heights');
+            const bundleLabel = document.getElementById('add-paired-bundle-label');
+
+            if (!box || !currentModalProduct) return;
+
+            if (!currentModalProduct.isPlant || currentModalProduct.isCombo || currentModalProduct.isCare) {
+                box.classList.add('hidden');
+                return;
+            }
+
+            box.classList.remove('hidden');
+
+            const plantSizes = getSizesForProduct(currentModalProduct);
+            const plantSizeObj = plantSizes.find(s => s.id === selectedSizeId) || plantSizes[0];
+            const rec = plantSizeObj.recommendedPlanter || { minDiam: 40, sizeId: 1, label: "حداقل قطر ۴۰ سانت" };
+            const reqDiam = rec.minDiam || (rec.sizeId === 2 || rec.sizeId === 3 ? 50 : 40);
+            const isLargePlant = reqDiam >= 50;
+
+            if (labelEl) {
+                labelEl.innerText = isLargePlant
+                    ? "حداقل قطر ۵۰ سانت (انتخاب ارتفاع ۵۰ یا ۶۰)"
+                    : "حداقل قطر ۴۰ سانت (انتخاب ارتفاع ۴۰ تا ۶۰)";
+            }
+            // Helper to filter valid sizes of a planter matching required diameter
+            const getMatchingHeightsForPlanter = (planter) => {
+                const pSizes = getSizesForProduct(planter);
+                return pSizes.filter(s => {
+                    const normLabel = (s.label || '').replace(/[۰-۹]/g, d => '۰۱۲۳۴۵۶۷۸۹'.indexOf(d));
+                    if (normLabel.includes('60 × 60')) return false;
+                    if (isLargePlant) {
+                        return normLabel.includes('50 ×') || normLabel.includes('قطر 50');
+                    } else {
+                        if (planter.type === 'type1' && normLabel.includes('40 × 70')) return false;
+                        return normLabel.includes('40 ×') || normLabel.includes('قطر 40');
+                    }
+                });
+            };
+
+            const allPlanters = products.filter(p => !p.isPlant && p.id !== 't1-nescafe' && getMatchingHeightsForPlanter(p).length > 0);
+            const groups = [
+                {
+                    title: "۱. گلدان فلزی نوع اول (صادراتی ALORA • بدون درز و کشودار)",
+                    badgeClass: "bg-neutral-900 text-white",
+                    boxClass: "bg-white border-neutral-200",
+                    items: allPlanters.filter(p => p.type === 'type1')
+                },
+                {
+                    title: "۲. گلدان فلزی نوع دوم (مدل اقتصادی • دارای خط درز ورق)",
+                    badgeClass: "bg-amber-100 text-amber-900 border border-amber-300",
+                    boxClass: "bg-amber-50/70 border-amber-300",
+                    items: allPlanters.filter(p => p.type === 'type2')
+                }
+            ];
+
+            if (!isLargePlant) {
+                groups.push({
+                    title: "۳. گلدان پلیمری چرخدار (سبک و نشکن • قطر ۴۰×۴۵ و ۴۰×۷۳)",
+                    badgeClass: "bg-sky-100 text-sky-900 border border-sky-300",
+                    boxClass: "bg-sky-50/70 border-sky-300",
+                    items: allPlanters.filter(p => p.type === 'polymer')
+                });
+            }
+
+            if (!allPlanters.some(p => p.id === selectedPairedPlanterId)) {
+                selectedPairedPlanterId = allPlanters[0] ? allPlanters[0].id : 't1-beige';
+            }
+
+            if (colorsContainer) {
+                colorsContainer.innerHTML = '';
+                groups.forEach(group => {
+                    if (group.items.length === 0) return;
+
+                    const section = document.createElement('div');
+                    section.className = `p-2.5 rounded-xl border ${group.boxClass} space-y-2`;
+
+                    const header = document.createElement('div');
+                    header.className = "flex items-center justify-between";
+                    header.innerHTML = `<span class="text-[10px] font-black px-2 py-0.5 rounded-md ${group.badgeClass}">${group.title}</span>`;
+                    section.appendChild(header);
+
+                    const swatchesRow = document.createElement('div');
+                    swatchesRow.className = "flex flex-wrap gap-1.5";
+
+                    group.items.forEach(planter => {
+                        const isSelected = planter.id === selectedPairedPlanterId;
+                        const swatchBtn = document.createElement('button');
+                        swatchBtn.type = 'button';
+                        swatchBtn.onclick = () => {
+                            selectedPairedPlanterId = planter.id;
+                            selectedPairedPlanterSizeId = null;
+                            renderSmartPlanterMatcher();
+                        };
+                        swatchBtn.className = `px-2.5 py-1.5 rounded-xl border flex items-center gap-1.5 text-[10px] font-bold transition ${
+                            isSelected
+                                ? 'border-neutral-900 bg-neutral-900 text-white shadow-sm'
+                                : 'border-brand-200 bg-white text-neutral-800 hover:border-neutral-400'
+                        }`;
+                        swatchBtn.innerHTML = `
+                            <span class="w-2.5 h-2.5 rounded-sm border border-black/10 shrink-0" style="background-color: ${planter.hex};"></span>
+                            <span>${planter.colorName.split('(')[0].trim()}</span>
+                        `;
+                        swatchesRow.appendChild(swatchBtn);
+                    });
+
+                    section.appendChild(swatchesRow);
+                    colorsContainer.appendChild(section);
+                });
+            }
+
+            const chosenPlanter = allPlanters.find(p => p.id === selectedPairedPlanterId) || allPlanters[0];
+            const validHeights = getMatchingHeightsForPlanter(chosenPlanter);
+
+            if (!validHeights.some(h => h.id === selectedPairedPlanterSizeId)) {
+                selectedPairedPlanterSizeId = validHeights[0] ? validHeights[0].id : null;
+            }
+
+            if (heightsContainer) {
+                heightsContainer.innerHTML = '';
+                validHeights.forEach(hObj => {
+                    const isHSelected = hObj.id === selectedPairedPlanterSizeId;
+                    const hPrice = calculatePrice(chosenPlanter, hObj.id);
+                    const hBtn = document.createElement('button');
+                    hBtn.type = 'button';
+                    hBtn.onclick = () => {
+                        selectedPairedPlanterSizeId = hObj.id;
+                        renderSmartPlanterMatcher();
+                    };
+                    hBtn.className = `px-2.5 py-1.5 rounded-xl border text-[10px] font-bold transition flex items-center gap-1.5 ${
+                        isHSelected
+                            ? 'border-amber-700 bg-amber-700 text-white shadow-sm'
+                            : 'border-amber-300 bg-white text-neutral-800 hover:bg-amber-100'
+                    }`;
+                    hBtn.innerHTML = `
+                        <span>${hObj.label.split('(')[0].trim()}</span>
+                        <span class="${isHSelected ? 'text-amber-200' : 'text-gold-600'} font-black">(${formatPriceToman(hPrice)})</span>
+                    `;
+                    heightsContainer.appendChild(hBtn);
+                });
+            }
+
+            const chosenPSize = validHeights.find(s => s.id === selectedPairedPlanterSizeId) || validHeights[0];
+            const combinedPrice = (plantSizeObj.basePrice || 0) + (chosenPSize ? calculatePrice(chosenPlanter, chosenPSize.id) : 0);
+
+            if (bundleLabel && chosenPSize) {
+                const typeTag = chosenPlanter.type === 'type1' ? 'آلورا' : (chosenPlanter.type === 'type2' ? 'نوع دوم اقتصادی' : 'پلیمری');
+                bundleLabel.innerText = `افزودن ست (${typeTag} ${chosenPlanter.colorName.split('(')[0].trim()} • ${chosenPSize.label.split('(')[0].trim()}): ${formatPriceToman(combinedPrice)}`;
+            }
+        }
+
+        function addPairedBundleToCart() {
+            if (!currentModalProduct || !currentModalProduct.isPlant) return;
+
+            const plantSizes = getSizesForProduct(currentModalProduct);
+            const plantSizeObj = plantSizes.find(s => s.id === selectedSizeId) || plantSizes[0];
+
+            const chosenPlanter = products.find(p => p.id === selectedPairedPlanterId) || products[0];
+            const planterSizes = getSizesForProduct(chosenPlanter);
+            const planterSizeObj = planterSizes.find(s => s.id === selectedPairedPlanterSizeId) || planterSizes[0];
+
+            // 1. Add Plant
+            const existingPlant = cart.find(c => c.prodId === currentModalProduct.id && c.sizeId === plantSizeObj.id);
+            if (existingPlant) {
+                existingPlant.qty += 1;
+            } else {
+                cart.push({
+                    prodId: currentModalProduct.id,
+                    name: currentModalProduct.name,
+                    typeBadge: currentModalProduct.badge,
+                    sizeId: plantSizeObj.id,
+                    sizeLabel: plantSizeObj.label,
+                    price: plantSizeObj.basePrice,
+                    qty: 1,
+                    hex: currentModalProduct.hex
+                });
+            }
+
+            // 2. Add Planter
+            const planterPrice = calculatePrice(chosenPlanter, planterSizeObj.id);
+            const existingPlanter = cart.find(c => c.prodId === chosenPlanter.id && c.sizeId === planterSizeObj.id);
+            if (existingPlanter) {
+                existingPlanter.qty += 1;
+            } else {
+                cart.push({
+                    prodId: chosenPlanter.id,
+                    name: chosenPlanter.name,
+                    typeBadge: chosenPlanter.badge,
+                    sizeId: planterSizeObj.id,
+                    sizeLabel: planterSizeObj.label,
+                    price: planterPrice,
+                    qty: 1,
+                    hex: chosenPlanter.hex
+                });
+            }
+
+            showToast("گیاه و گلدان ست با موفقیت به پیش‌فاکتور افزوده شدند.");
+            updateModalPriceAndCartButton();
+            renderCartList();
+            renderCatalog();
+        }
+
+        function renderModalColorSwatches() {
+            const container = document.getElementById('modal-color-swatches');
+            container.innerHTML = '';
+
+            const related = products.filter(p => p.type === currentModalProduct.type);
+
+            related.forEach(p => {
+                const isSelected = p.id === currentModalProduct.id;
+                const btn = document.createElement('button');
+                btn.type = 'button';
+                btn.onclick = () => openProductModal(p.id);
+                btn.className = `px-3 py-1.5 rounded-xl border flex items-center gap-1.5 transition text-[11px] font-bold ${
+                    isSelected 
+                        ? 'border-neutral-900 bg-neutral-900 text-white shadow-sm' 
+                        : 'border-brand-200 bg-white text-neutral-700 hover:bg-brand-50'
+                }`;
+
+                btn.innerHTML = `
+                    <span class="w-3 h-3 rounded-md border border-black/10 shrink-0" style="background-color: ${p.hex}"></span>
+                    <span class="whitespace-nowrap">${p.colorName.split(' ')[0]}</span>
+                `;
+                container.appendChild(btn);
+            });
+        }
+
+        function renderModalSizeButtons() {
+            const grid = document.getElementById('modal-size-grid');
+            if (!grid || !currentModalProduct) return;
+            grid.innerHTML = '';
+
+            const sizes = getSizesForProduct(currentModalProduct);
+            sizes.forEach(s => {
+                const isSelected = s.id === selectedSizeId;
+                const price = calculatePrice(currentModalProduct, s.id);
+                const btn = document.createElement('button');
+                btn.type = 'button';
+                btn.onclick = () => {
+                    selectedSizeId = s.id;
+                    const imgEl = document.getElementById('modal-primary-image');
+
+                    if (s.image && imgEl) {
+                        const resolved = resolveImageUrl(s.image);
+                        imgEl.src = resolved;
+                    }
+                    updateModalGalleryThumbs(s);
+                    renderModalSizeButtons();
+                    renderSmartPlanterMatcher();
+                    updateModalPriceAndCartButton();
+                };
+                btn.className = `p-2.5 rounded-2xl border text-right transition flex items-center justify-between gap-2 ${
+                    isSelected
+                        ? 'border-neutral-900 bg-neutral-900 text-white shadow-md'
+                        : 'border-brand-200 bg-white text-neutral-800 hover:border-neutral-400'
+                }`;
+
+                btn.innerHTML = `
+                    <div>
+                        <span class="text-xs font-bold block">${s.label}</span>
+                        <span class="text-[10px] ${isSelected ? 'text-neutral-300' : 'text-neutral-500'}">ابعاد و مشخصات</span>
+                    </div>
+                    <span class="text-xs font-black ${isSelected ? 'text-gold-500' : 'text-gold-600'}">${s.isInquiry ? 'استعلام تلفنی' : formatPriceToman(price)}</span>
+                `;
+                grid.appendChild(btn);
+            });
+        }
+
+        function updateModalPriceAndCartButton() {
+            if (!currentModalProduct) return;
+            const sizes = getSizesForProduct(currentModalProduct);
+            const sizeObj = sizes.find(s => s.id === selectedSizeId) || sizes[0];
+            const price = calculatePrice(currentModalProduct, selectedSizeId);
+            const priceEl = document.getElementById('modal-prod-price');
+            const addBtn = document.getElementById('modal-add-btn');
+            const addLabel = document.getElementById('modal-add-label');
+
+            if (priceEl) {
+                priceEl.innerText = sizeObj.isInquiry ? 'استعلام تلفنی' : formatPriceToman(price);
+            }
+
+            const inCart = cart.some(c => c.prodId === currentModalProduct.id && c.sizeId === selectedSizeId);
+            if (addBtn && addLabel) {
+                if (inCart) {
+                    addLabel.innerText = "حذف از پیش‌فاکتور";
+                    addBtn.classList.remove('bg-neutral-900', 'hover:bg-neutral-800');
+                    addBtn.classList.add('bg-rose-600', 'hover:bg-rose-500');
+                } else {
+                    addLabel.innerText = sizeObj.isInquiry ? "ثبت جهت استعلام در فاکتور" : "افزودن به پیش‌فاکتور";
+                    addBtn.classList.remove('bg-rose-600', 'hover:bg-rose-500');
+                    addBtn.classList.add('bg-neutral-900', 'hover:bg-neutral-800');
+                }
+            }
+        }
+
+        function toggleCartFromModal() {
+            if (!currentModalProduct) return;
+            const sizes = getSizesForProduct(currentModalProduct);
+            const sizeObj = sizes.find(s => s.id === selectedSizeId) || sizes[0];
+            const price = calculatePrice(currentModalProduct, sizeObj.id);
+
+            const existingIdx = cart.findIndex(c => c.prodId === currentModalProduct.id && c.sizeId === sizeObj.id);
+            if (existingIdx > -1) {
+                cart.splice(existingIdx, 1);
+                showToast("محصول از پیش‌فاکتور حذف شد.");
+            } else {
+                cart.push({
+                    prodId: currentModalProduct.id,
+                    name: currentModalProduct.name,
+                    typeBadge: currentModalProduct.badge,
+                    sizeId: sizeObj.id,
+                    sizeLabel: sizeObj.label,
+                    price: price,
+                    qty: 1,
+                    hex: currentModalProduct.hex
+                });
+                showToast("محصول به پیش‌فاکتور افزوده شد.");
+            }
+
+            updateModalPriceAndCartButton();
+            renderCartList();
+            renderCatalog();
+        }
+
+        function buyNowFromModal() {
+            if (!currentModalProduct) return;
+            const sizes = getSizesForProduct(currentModalProduct);
+            const sizeObj = sizes.find(s => s.id === selectedSizeId) || sizes[0];
+            const price = calculatePrice(currentModalProduct, sizeObj.id);
+
+            const existing = cart.find(c => c.prodId === currentModalProduct.id && c.sizeId === sizeObj.id);
+            if (!existing) {
+                cart.push({
+                    prodId: currentModalProduct.id,
+                    name: currentModalProduct.name,
+                    typeBadge: currentModalProduct.badge,
+                    sizeId: sizeObj.id,
+                    sizeLabel: sizeObj.label,
+                    price: price,
+                    qty: 1,
+                    hex: currentModalProduct.hex
+                });
+            }
+
+            closeProductModal();
+            toggleCartDrawer(true);
+        }
+
+        function quickSelect(prodId, ev) {
+            if (ev) ev.stopPropagation();
+            openProductModal(prodId);
+        }
+
+        function closeProductModal() {
+            const modal = document.getElementById('product-modal');
+            if (modal) {
+                modal.classList.add('hidden');
+                modal.classList.remove('flex');
+            }
+            document.body.style.overflow = '';
+        }
+
+        // Comprehensive Tehran & Suburbs Neighborhoods Database (Origin: Mahallati Flower Market)
+        const TEHRAN_AREAS = [
+            // 1. Piroozi, Tehran-no, Nabard, Niroo Havaei (950,000 T)
+            {
+                rate: 950000,
+                desc: "✓ محدوده پیروزی، تهران‌نو، نبرد و نیروهوایی (۹۵۰,۰۰۰ تومان)",
+                keywords: [
+                    'نبرد', 'محلاتی', 'آهنگ', 'پیروزی', 'تهران نو', 'تهراننو', 'نیروی هوایی', 'نیروهوایی',
+                    'اتابک', 'شهدا', 'میدان خراسان', 'خراسان', 'بلوار ابوذر', 'ابوذر', 'دهم فروردین',
+                    'شیرودی', 'امام حسین', 'نظام آباد', 'سبلان', 'تهرانپارس', 'تهران پارس', 'نارمک',
+                    'هفت حوض', 'رسالت', 'مجیدیه', 'شمس آباد', 'فرجام', 'دلاوران'
+                ]
+            },
+            // 2. North-East Tehran: Ozgol, Aghdasiyeh, Niavaran, Pasdaran (1,500,000 T)
+            {
+                rate: 1500000,
+                desc: "✓ شمال شرق تهران: ازگل، اقدسیه، نیاوران و پاسداران (۱,۵۰۰,۰۰۰ تومان)",
+                keywords: [
+                    'ازگل', 'اقدسیه', 'آجودانیه', 'نیاوران', 'فرمانیه', 'کامرانیه', 'صاحبقرانیه',
+                    'دارآباد', 'سوهانک', 'مینی سیتی', 'شهرک محلاتی', 'لشگرک', 'پاسداران', 'دروس',
+                    'اختیاریه', 'دیباجی', 'قیطریه', 'اندرزگو', 'چیذر', 'دولت', 'کلاهدوز', 'حکیمیه', 'لویزان', 'هروی'
+                ]
+            },
+            // 3. Central Tehran (1,500,000 T)
+            {
+                rate: 1500000,
+                desc: "✓ مرکز تهران (۱,۵۰۰,۰۰۰ تومان)",
+                keywords: [
+                    'ولیعصر', 'انقلاب', 'فاطمی', 'یوسف آباد', 'مطهری', 'بهشتی', 'تخت طاووس',
+                    'سهروردی', 'عباس آباد', 'امیرآباد', 'کارگر', 'کشاورز', 'بلوار کشاورز',
+                    'جمالزاده', 'فلسطین', 'میدان ولیعصر', 'هفت تیر', 'طالقانی', 'فردوسی',
+                    'سعدی', 'لاله زار', 'جمهوری', 'پاستور', 'دانشگاه تهران', 'میدان جهاد', 'سید خندان', 'سیدخندان'
+                ]
+            },
+            // 4. South-East Tehran (1,500,000 T)
+            {
+                rate: 1500000,
+                desc: "✓ جنوب شرق تهران: افسریه، خاوران و مشیریه (۱,۵۰۰,۰۰۰ تومان)",
+                keywords: [
+                    'افسریه', 'خاوران', 'مسعودیه', 'مشیریه', 'کیانشهر', 'بیسیم', 'منصور',
+                    'دولت آباد', 'شهر ری', 'شهرری', 'ابن بابویه', 'باقرشهر', 'کهریزک', 'فدائیان اسلام'
+                ]
+            },
+            // 5. Jordan, Vanak, Mirdamad, Zafar (2,000,000 T)
+            {
+                rate: 2000000,
+                desc: "✓ محدوده جردن، ونک، میرداماد و ظفر (۲,۰۰۰,۰۰۰ تومان)",
+                keywords: [
+                    'جردن', 'آفریقا', 'نلسون ماندلا', 'ونک', 'میدان ونک', 'میرداماد', 'ظفر',
+                    'دستگردی', 'گاندی', 'توانیر', 'ملاصدرا', 'شیخ بهایی', 'آرارات', 'قبا'
+                ]
+            },
+            // 6. Tajrish & North Tehran: Fereshteh, Elahiyeh, Zafaraniyeh (2,500,000 T)
+            {
+                rate: 2500000,
+                desc: "✓ تجریش و شمال تهران: فرشته، الهیه و زعفرانیه (۲,۵۰۰,۰۰۰ تومان)",
+                keywords: [
+                    'تجریش', 'فرشته', 'الهیه', 'زعفرانیه', 'محمودیه', 'جماران', 'دربند',
+                    'سعدآباد', 'مقدس اردبیلی', 'پل رومی', 'شریعتی', 'باغ فردوس'
+                ]
+            },
+            // 7. West Tehran (2,500,000 T)
+            {
+                rate: 2500000,
+                desc: "✓ غرب تهران (۲,۵۰۰,۰۰۰ تومان)",
+                keywords: [
+                    'سعادت آباد', 'شهرک غرب', 'پونک', 'جنت آباد', 'صادقیه', 'آریاشهر', 'مرزداران',
+                    'ستارخان', 'گیشا', 'شهر زیبا', 'شهرزیبا', 'بلوار فردوس', 'فردوس', 'اکباتان',
+                    'آپادانا', 'سازمان برنامه', 'شاهین', 'باغ فیض', 'اشرفی اصفهانی', 'آیت الله کاشانی',
+                    'چیتگر', 'دریاچه چیتگر', 'دریاچه', 'منطقه ۲۲', 'منطقه 22', 'شهرک راه آهن',
+                    'شهرک گلستان', 'دهکده المپیک', 'آزادی', 'میدان آزادی', 'استاد معین', 'طرشت'
+                ]
+            },
+            // 8. South-West Tehran (2,800,000 T)
+            {
+                rate: 2800000,
+                desc: "✓ جنوب غرب تهران (۲,۸۰۰,۰۰۰ تومان)",
+                keywords: [
+                    'نازی آباد', 'نازیآباد', 'یاخچی آباد', 'خانی آباد', 'خانیاباد', 'یافت آباد',
+                    'آذری', 'فلاح', 'قلعه مرغی', 'نعمت آباد', 'عبدل آباد', 'تهرانسر', 'شادآباد',
+                    'مهرآباد', 'شوش', 'راه آهن', 'جوادیه', 'مولوی', 'گمرک', 'هلال احمر', 'بریانک', 'سلسبیل', 'جیحون', 'هاشمی'
+                ]
+            },
+            // 9. North-West / Velenjak, Darakeh, Evin (2,850,000 T)
+            {
+                rate: 2850000,
+                desc: "✓ شمال غرب / ولنجک، درکه و اوین (۲,۸۵۰,۰۰۰ تومان)",
+                keywords: [
+                    'ولنجک', 'درکه', 'اوین', 'فرحزاد', 'پاک نژاد', 'یادگار امام', 'توحید', 'کوهسار', 'شهران', 'کن', 'سولقان'
+                ]
+            },
+            // 10. Suburbs: Lavasanat, Pardis, Damavand, Karaj
+            {
+                rate: 2500000,
+                desc: "✓ لواسانات و فشم (۲,۵۰۰,۰۰۰ تومان)",
+                keywords: ['لواسان', 'لواسانات', 'فشم', 'میگون', 'اوشان']
+            },
+            {
+                rate: 2200000,
+                desc: "✓ پردیس، بومهن و رودهن (۲,۲۰۰,۰۰۰ تومان)",
+                keywords: ['پردیس', 'جاجرود', 'بومهن', 'رودهن']
+            },
+            {
+                rate: 2800000,
+                desc: "✓ دماوند، گیلاوند و آبسرد (۲,۸۰۰,۰۰۰ تومان)",
+                keywords: ['دماوند', 'گیلاوند', 'آبسرد']
+            },
+            {
+                rate: 3500000,
+                desc: "✓ کرج و استان البرز (۳,۵۰۰,۰۰۰ تومان)",
+                keywords: [
+                    'کرج', 'البرز', 'فردیس', 'مهرشهر', 'عظیمیه', 'گوهردشت', 'جهانشهر',
+                    'مهرویلا', 'گلشهر', 'شهریار', 'اندیشه', 'شهر قدس', 'وردآورد'
+                ]
+            }
+        ];
+
+        function onZoneSelectChange() {
+            const zoneSelect = document.getElementById('shipping-zone');
+            if (zoneSelect) {
+                currentShippingCost = parseInt(zoneSelect.value, 10) || 0;
+            }
+            evaluateAddressDistance();
+            renderCartList();
+        }
+
+        function evaluateAddressDistance() {
+            const addressInput = document.getElementById('cust-address');
+            const zoneSelect = document.getElementById('shipping-zone');
+            const statusEl = document.getElementById('shipping-note');
+            if (!addressInput) return;
+
+            const rawAddr = addressInput.value.trim().toLowerCase();
+            // Normalize persian characters
+            const addr = rawAddr
+                .replace(/ي/g, 'ی')
+                .replace(/ك/g, 'ک')
+                .replace(/[\u200C\u200B]/g, ' ')
+                .replace(/\s+/g, ' ');
+
+            if (!addr) {
+                if (zoneSelect && parseInt(zoneSelect.value, 10) > 0) {
+                    currentShippingCost = parseInt(zoneSelect.value, 10);
+                    if (statusEl) statusEl.innerText = "برآورد بر اساس منطقه انتخاب‌شده در جدول وانت.";
+                } else {
+                    currentShippingCost = 0;
+                    if (statusEl) statusEl.innerText = "نام محله یا آدرس خود را بنویسید تا نرخ دقیق وانت محاسبه شود.";
+                }
+                renderCartList();
+                return;
+            }
+
+            // Look up against the comprehensive database
+            let matchedArea = null;
+            for (const area of TEHRAN_AREAS) {
+                const found = area.keywords.some(kw => {
+                    const cleanKw = kw.replace(/[\u200C\u200B]/g, ' ');
+                    return addr.includes(cleanKw);
+                });
+                if (found) {
+                    matchedArea = area;
+                    break;
+                }
+            }
+
+            if (matchedArea) {
+                currentShippingCost = matchedArea.rate;
+                if (statusEl) statusEl.innerText = matchedArea.desc;
+                renderCartList();
+                return;
+            }
+
+            // Fallback to dropdown selection if entered text is not a recognized neighborhood
+            if (zoneSelect && parseInt(zoneSelect.value, 10) > 0) {
+                currentShippingCost = parseInt(zoneSelect.value, 10);
+                if (statusEl) statusEl.innerText = "برآورد بر اساس منطقه انتخابی در منو.";
+            } else {
+                currentShippingCost = 0;
+                if (statusEl) statusEl.innerText = "محله را مشخص‌تر بنویسید (مثلاً: پیروزی، جردن، فرشته، ولنجک، ازگل، سعادت‌آباد...)";
+            }
+            renderCartList();
+        }
+
+        function getSoilPriceForItem(item) {
+            // Only standalone planters require soil & drainage package (combos already include soil)
+            if (!item || !item.prodId || item.prodId.startsWith('plant-') || item.prodId.startsWith('combo-') || item.prodId.startsWith('care-')) return 0;
+
+            const lbl = (item.sizeLabel || '').replace(/[۰-۹]/g, d => '۰۱۲۳۴۵۶۷۸۹'.indexOf(d));
+            if (lbl.includes('40') && lbl.includes('40')) return 950000;
+            if (lbl.includes('40') && lbl.includes('45')) return 950000;
+            if (lbl.includes('40') && lbl.includes('50')) return 1100000;
+            if (lbl.includes('40') && (lbl.includes('70') || lbl.includes('73'))) return 1400000;
+            if (lbl.includes('50') && lbl.includes('50')) return 1450000;
+            if (lbl.includes('50') && lbl.includes('60')) return 1700000;
+            if (lbl.includes('60') && lbl.includes('60')) return 3500000;
+            return 1100000;
+        }
+
+        function calculateTotalSoilCost() {
+            const soilCheckbox = document.getElementById('include-soil-checkbox');
+            if (soilCheckbox && !soilCheckbox.checked) return 0;
+
+            return cart.reduce((sum, item) => {
+                const unitSoil = getSoilPriceForItem(item);
+                return sum + (unitSoil * item.qty);
+            }, 0);
+        }
+
+        function getPlantingPriceForItem(item) {
+            // Planters incur planting fee based on diameter: 40cm -> 1,100,000 | 50cm -> 1,500,000 | 60cm -> 2,500,000
+            if (!item || !item.prodId || item.prodId.startsWith('plant-') || item.prodId.startsWith('combo-') || item.prodId.startsWith('care-')) return 0;
+
+            const lbl = (item.sizeLabel || '').replace(/[۰-۹]/g, d => '۰۱۲۳۴۵۶۷۸۹'.indexOf(d));
+            if (lbl.includes('40 ×') || lbl.includes('40×') || lbl.includes('قطر 40')) {
+                return 1100000;
+            }
+            if (lbl.includes('50 ×') || lbl.includes('50×') || lbl.includes('قطر 50')) {
+                return 1500000;
+            }
+            if (lbl.includes('60 ×') || lbl.includes('60×') || lbl.includes('قطر 60')) {
+                return 2500000;
+            }
+            return 0;
+        }
+
+        function calculateTotalPlantingCost() {
+            const plantingCheckbox = document.getElementById('include-planting-checkbox');
+            if (plantingCheckbox && !plantingCheckbox.checked) return 0;
+
+            return cart.reduce((sum, item) => {
+                const unitPlanting = getPlantingPriceForItem(item);
+                return sum + (unitPlanting * item.qty);
+            }, 0);
+        }
+
+        function getInHomeDeliveryCost() {
+            const inhomeCheckbox = document.getElementById('inhome-delivery-checkbox');
+            if (inhomeCheckbox && !inhomeCheckbox.checked) return 0;
+            return cart.length > 0 ? 500000 : 0;
+        }
+
+        function toggleCartDrawer(open) {
+            const drawer = document.getElementById('cart-drawer');
+            if (!drawer) return;
+            if (open) {
+                renderCartList();
+                drawer.classList.remove('hidden');
+                drawer.classList.add('flex');
+                document.body.style.overflow = 'hidden';
+            } else {
+                drawer.classList.add('hidden');
+                drawer.classList.remove('flex');
+                document.body.style.overflow = '';
+            }
+        }
+
+        function updateItemQty(index, delta) {
+            if (!cart[index]) return;
+            cart[index].qty += delta;
+            if (cart[index].qty <= 0) {
+                cart.splice(index, 1);
+            }
+            renderCartList();
+            renderCatalog();
+        }
+
+        function renderCartList() {
+            const container = document.getElementById('cart-items-container');
+            const counterBadge = document.getElementById('cart-counter');
+            const subtotalEl = document.getElementById('cart-subtotal-badge');
+            const soilEl = document.getElementById('cart-soil-badge');
+            const soilHintEl = document.getElementById('soil-unit-hint');
+            const plantingEl = document.getElementById('cart-planting-badge');
+            const plantingHintEl = document.getElementById('planting-unit-hint');
+            const shippingEl = document.getElementById('cart-shipping-badge');
+            const inhomeEl = document.getElementById('cart-inhome-badge');
+            const totalEl = document.getElementById('cart-total-badge');
+
+            const totalQty = cart.reduce((sum, item) => sum + item.qty, 0);
+            if (counterBadge) {
+                if (totalQty > 0) {
+                    counterBadge.innerText = totalQty;
+                    counterBadge.classList.remove('hidden');
+                } else {
+                    counterBadge.classList.add('hidden');
+                }
+            }
+
+            if (container) {
+                if (cart.length === 0) {
+                    container.innerHTML = `
+                        <div class="py-10 text-center text-neutral-400 space-y-2">
+                            <i class="ph ph-shopping-bag-open text-4xl"></i>
+                            <p class="text-xs font-bold">پیش‌فاکتور شما در حال حاضر خالی است.</p>
+                            <p class="text-[10px]">محصولات مدنظر را از کاتالوگ انتخاب نمایید.</p>
+                        </div>
+                    `;
+                } else {
+                    container.innerHTML = cart.map((item, idx) => {
+                        const unitSoil = getSoilPriceForItem(item);
+                        const unitPlanting = getPlantingPriceForItem(item);
+                        return `
+                            <div class="py-3 flex items-center justify-between gap-2">
+                                <div class="flex items-center gap-2.5 min-w-0">
+                                    <span class="w-4 h-4 rounded-md border border-black/10 shrink-0" style="background-color: ${item.hex || '#333'};"></span>
+                                    <div class="min-w-0">
+                                        <h4 class="text-xs font-black text-neutral-900 truncate">${item.name}</h4>
+                                        <span class="text-[10px] text-neutral-500 block">${item.sizeLabel}</span>
+                                        <div class="flex flex-wrap gap-1 mt-0.5">
+                                            ${unitSoil > 0 ? `<span class="text-[9px] text-emerald-700 bg-emerald-50 px-1.5 rounded">خاک: ${formatPriceToman(unitSoil)}</span>` : ''}
+                                            ${unitPlanting > 0 ? `<span class="text-[9px] text-indigo-700 bg-indigo-50 px-1.5 rounded">کاشت: ${formatPriceToman(unitPlanting)}</span>` : ''}
+                                        </div>
+                                        <span class="text-[11px] font-bold text-gold-600 mt-0.5 block">${item.price === 0 ? 'استعلام تلفنی' : formatPriceToman(item.price * item.qty)}</span>
+                                    </div>
+                                </div>
+                                <div class="flex items-center gap-1.5 shrink-0">
+                                    <button onclick="updateItemQty(${idx}, -1)" class="w-6 h-6 rounded-lg bg-brand-100 hover:bg-brand-200 text-neutral-800 font-bold text-xs flex items-center justify-center">-</button>
+                                    <span class="text-xs font-black w-5 text-center">${item.qty}</span>
+                                    <button onclick="updateItemQty(${idx}, 1)" class="w-6 h-6 rounded-lg bg-brand-100 hover:bg-brand-200 text-neutral-800 font-bold text-xs flex items-center justify-center">+</button>
+                                    <button onclick="removeCartItem(${idx})" class="w-6 h-6 rounded-lg bg-rose-50 hover:bg-rose-100 text-rose-600 flex items-center justify-center mr-1">
+                                        <i class="ph ph-trash text-xs"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        `;
+                    }).join('');
+                }
+            }
+
+            const subtotal = cart.reduce((sum, item) => sum + (item.price * item.qty), 0);
+            const soilTotal = calculateTotalSoilCost();
+            const plantingTotal = calculateTotalPlantingCost();
+            const inhomeTotal = getInHomeDeliveryCost();
+            const grandTotal = subtotal + soilTotal + plantingTotal + currentShippingCost + inhomeTotal;
+
+            if (subtotalEl) subtotalEl.innerText = formatPriceToman(subtotal);
+            if (soilEl) soilEl.innerText = formatPriceToman(soilTotal);
+            if (soilHintEl) soilHintEl.innerText = formatPriceToman(soilTotal);
+            if (plantingEl) plantingEl.innerText = formatPriceToman(plantingTotal);
+            if (plantingHintEl) plantingHintEl.innerText = formatPriceToman(plantingTotal);
+            if (shippingEl) {
+                shippingEl.innerText = currentShippingCost > 0 ? formatPriceToman(currentShippingCost) : 'هنوز انتخاب نشده';
+            }
+            if (inhomeEl) inhomeEl.innerText = formatPriceToman(inhomeTotal);
+            if (totalEl) totalEl.innerText = formatPriceToman(grandTotal);
+
+            updateQuickBar();
+        }
+
+        function quickAddCareItem(careProdId) {
+            const prod = products.find(p => p.id === careProdId);
+            if (!prod) return;
+            const sizes = getSizesForProduct(prod);
+            const sizeObj = sizes[0];
+            const price = calculatePrice(prod, sizeObj.id);
+
+            const existing = cart.find(c => c.prodId === prod.id && c.sizeId === sizeObj.id);
+            if (existing) {
+                existing.qty += 1;
+            } else {
+                cart.push({
+                    prodId: prod.id,
+                    name: prod.name,
+                    typeBadge: prod.badge,
+                    sizeId: sizeObj.id,
+                    sizeLabel: sizeObj.label,
+                    price: price,
+                    qty: 1,
+                    hex: prod.hex
+                });
+            }
+            showToast(`${prod.name.split('(')[0]} به پیش‌فاکتور افزوده شد.`);
+            renderCartList();
+            renderCatalog();
+        }
+
+        function removeCartItem(index) {
+            cart.splice(index, 1);
+            renderCartList();
+            renderCatalog();
+        }
+
+        function updateQuickBar() {
+            const bar = document.getElementById('quick-bar');
+            const qtyEl = document.getElementById('quick-qty');
+            const totalEl = document.getElementById('quick-total');
+
+            const totalCount = cart.reduce((sum, c) => sum + c.qty, 0);
+            const subtotal = cart.reduce((sum, c) => sum + (c.price * c.qty), 0);
+
+            if (totalCount > 0) {
+                qtyEl.innerText = totalCount;
+                totalEl.innerText = formatPriceToman(subtotal);
+                bar.classList.remove('translate-y-36');
+            } else {
+                bar.classList.add('translate-y-36');
+            }
+        }
+
+        function showDrawerDemoModal() {
+            const modal = document.getElementById('drawer-demo-modal');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+        }
+
+        function closeDrawerDemoModal() {
+            const modal = document.getElementById('drawer-demo-modal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+        }
+
+        function composeOrderText() {
+            if (cart.length === 0) return "";
+            const custName = document.getElementById('cust-name').value.trim();
+            const custPhone = document.getElementById('cust-phone').value.trim();
+            const custAddress = document.getElementById('cust-address').value.trim();
+            const zoneSelect = document.getElementById('shipping-zone');
+            const zoneText = (zoneSelect && zoneSelect.value !== "0") ? zoneSelect.options[zoneSelect.selectedIndex].text.split('-')[0] : "نامشخص / نیازمند هماهنگی";
+
+            let msg = "🌿 درود و وقت بخیر؛\nپیش‌فاکتور سفارش از کاتالوگ گل‌بازار:\n";
+            msg += "───────────────────\n";
+
+            cart.forEach((c, idx) => {
+                msg += `${idx + 1}. ${c.name}\n`;
+                msg += `   ▫️ مشخصه: ${c.typeBadge}\n`;
+                msg += `   ▫️ سایز: ${c.sizeLabel}\n`;
+                msg += `   ▫️ تعداد: ${c.qty} عدد | فی: ${formatPriceToman(c.price)}\n`;
+                msg += `   ▫️ جمع ردیف: ${formatPriceToman(c.price * c.qty)}\n\n`;
+            });
+
+            const subtotal = cart.reduce((sum, c) => sum + (c.price * c.qty), 0);
+            const soilTotal = calculateTotalSoilCost();
+            const plantingTotal = calculateTotalPlantingCost();
+            const inhomeTotal = getInHomeDeliveryCost();
+            const total = subtotal + soilTotal + plantingTotal + currentShippingCost + inhomeTotal;
+
+            msg += "───────────────────\n";
+            msg += `▫️ جمع کل اقلام: ${formatPriceToman(subtotal)}\n`;
+            msg += `🌱 هزینه خاک و زهکشی: ${soilTotal > 0 ? formatPriceToman(soilTotal) : 'نیاز ندارد'}\n`;
+            if (plantingTotal > 0) {
+                msg += `🪴 هزینه کاشت تخصصی: ${formatPriceToman(plantingTotal)}\n`;
+            }
+            msg += `🚚 هزینه وانت (تحویل پایین ساختمان): ${currentShippingCost > 0 ? (formatPriceToman(currentShippingCost) + ` (${zoneText})`) : 'هماهنگی پس از ثبت آدرس'}\n`;
+            msg += `🏠 تحویل در واحد / داخل منزل: ${inhomeTotal > 0 ? formatPriceToman(inhomeTotal) : 'تحویل پایین ساختمان (۰ تومان)'}\n`;
+            msg += `💰 جمع کل پیش‌فاکتور: ${formatPriceToman(total)}\n`;
+            msg += "───────────────────\n";
+
+            if (custName) msg += `👤 خریدار: ${custName}\n`;
+            if (custPhone) msg += `📞 تماس خریدار: ${custPhone}\n`;
+            if (custAddress) msg += `📍 آدرس تحویل: ${custAddress}\n`;
+            msg += `\n📞 شماره‌های تماس گل‌بازار: ۳۳۳۶۳۶۷۰ - ۳۳۳۶۳۶۸۰\n`;
+            msg += `لطفاً موجودی و زمان بارگیری وانت را تأیید بفرمایید. سپاس🌱`;
+
+            return msg;
+        }
+
+        function sendToWhatsApp() {
+            const text = composeOrderText();
+            if (!text) {
+                showToast("لطفاً حداقل یک محصول را انتخاب کنید.");
+                return;
+            }
+            const url = `https://wa.me/${WHATSAPP_PHONE}?text=${encodeURIComponent(text)}`;
+            window.open(url, '_blank');
+        }
+
+        function sendToTelegram() {
+            const text = composeOrderText();
+            if (!text) {
+                showToast("لطفاً حداقل یک محصول را انتخاب کنید.");
+                return;
+            }
+            copyInvoiceText();
+            const url = `https://t.me/${TELEGRAM_HANDLE}`;
+            window.open(url, '_blank');
+            showToast("متن پیش‌فاکتور کپی شد و چت تلگرام باز گردید.");
+        }
+
+        function copyInvoiceText() {
+            const text = composeOrderText();
+            if (!text) {
+                showToast("پیش‌فاکتور خالی است.");
+                return;
+            }
+            const temp = document.createElement('textarea');
+            temp.value = text;
+            document.body.appendChild(temp);
+            temp.select();
+            document.execCommand('copy');
+            document.body.removeChild(temp);
+
+            const copyStatus = document.getElementById('copy-status');
+            if (copyStatus) {
+                copyStatus.innerText = "✓ متن پیش‌فاکتور با موفقیت کپی شد";
+                setTimeout(() => {
+                    copyStatus.innerText = "کپی متن کامل پیش‌فاکتور";
+                }, 3000);
+            }
+            showToast("متن پیش‌فاکتور کپی شد.");
+        }
+
+        function showToast(msg) {
+            const toast = document.getElementById('toast');
+            toast.innerText = msg;
+            toast.classList.remove('opacity-0', 'pointer-events-none');
+            setTimeout(() => {
+                toast.classList.add('opacity-0', 'pointer-events-none');
+            }, 2600);
+        }
+
+        window.onload = function() {
+            renderCatalog();
+        };
+    </script>
+</body>
+</html>
